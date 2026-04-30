@@ -109,3 +109,5 @@ def machine_stream(
         machine = random.choice(machines)
         yield machine.generate_batch()
         time.sleep(interval)
+
+# 15:09:53 — refactor: extract constant in simulator
