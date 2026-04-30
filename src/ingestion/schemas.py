@@ -73,3 +73,5 @@ class SensorBatch(BaseModel):
         return self.model_dump(mode="json")
 
 # 15:09:53 — feat: implement machine pool with 50 simulated assets
+
+# 15:09:53 — feat: add sensor calibration metadata to readings
