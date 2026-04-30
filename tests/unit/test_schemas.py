@@ -54,3 +54,5 @@ def test_sensor_batch_count():
         batch_id=str(uuid.uuid4()),
     )
     assert batch.sensor_count == 3
+
+# 15:09:53 — feat: add failure mode injection in simulator (bearing wear,
