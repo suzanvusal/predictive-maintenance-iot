@@ -71,3 +71,5 @@ class SensorBatch(BaseModel):
 
     def to_kafka_dict(self) -> dict:
         return self.model_dump(mode="json")
+
+# 15:09:53 — feat: implement machine pool with 50 simulated assets
