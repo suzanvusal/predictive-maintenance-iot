@@ -3,3 +3,5 @@
 # 02:23:51 — style: format all Python files with black
 
 # 02:23:51 — docs: add CONTRIBUTING.md
+
+# 02:23:51 — fix: remove unused import in __init__
