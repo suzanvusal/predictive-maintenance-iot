@@ -1,0 +1,87 @@
+name: Daily MLOps Commit Automation - Predictive Maintenance IoT
+
+on:
+  schedule:
+    - cron: '0 13 * * *'   # 1:00 PM UTC = 9:00 AM Toronto (EDT)
+  workflow_dispatch:
+    inputs:
+      day_override:
+        description: 'Force a specific day (1-30). Leave blank for auto.'
+        required: false
+        default: ''
+      commits_target:
+        description: 'Commits to make (15-30)'
+        required: false
+        default: '25'
+
+permissions:
+  contents: write
+
+jobs:
+  daily-automation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.AUTOMATION_PAT }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "86911143+suzanvusal@users.noreply.github.com"
+
+      - name: Detect project day
+        id: day
+        run: |
+          mkdir -p .automation_state
+          if [ -n "${{ github.event.inputs.day_override }}" ]; then
+            DAY="${{ github.event.inputs.day_override }}"
+          elif [ -f ".automation_state/next_day.txt" ]; then
+            DAY=$(cat .automation_state/next_day.txt)
+          elif [ -f ".automation_state/current_day.txt" ]; then
+            DAY=$(( $(cat .automation_state/current_day.txt) + 1 ))
+          else
+            DAY=1
+          fi
+          DAY=$(( DAY < 1 ? 1 : DAY > 30 ? 30 : DAY ))
+          echo "$DAY" > .automation_state/current_day.txt
+          echo "day=$DAY" >> $GITHUB_OUTPUT
+          echo "Running day $DAY of 30"
+
+      - name: Run automation
+        env:
+          PROJECT_DAY: ${{ steps.day.outputs.day }}
+          COMMITS_TARGET: ${{ github.event.inputs.commits_target || '25' }}
+        run: |
+          python3 scripts/daily_automator_template.py \
+            --day "$PROJECT_DAY" \
+            --commits "$COMMITS_TARGET" \
+            --plan plan/30_day_plan.json
+
+      - name: Push all commits
+        run: |
+          NEXT=$(( ${{ steps.day.outputs.day }} + 1 ))
+          echo "$NEXT" > .automation_state/next_day.txt
+          echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) day=${{ steps.day.outputs.day }}" \
+               >> .automation_state/run_log.txt
+          git add -A
+          git commit -m "chore: day ${{ steps.day.outputs.day }} automation complete" || true
+          git push https://${{ secrets.AUTOMATION_PAT }}@github.com/suzanvusal/predictive-maintenance-iot.git main
+
+      - name: Summary
+        run: |
+          COUNT=$(git log --oneline -50 | wc -l | tr -d ' ')
+          echo "## Day ${{ steps.day.outputs.day }}/30 complete" >> $GITHUB_STEP_SUMMARY
+          echo "Commits: $COUNT | Cost: $0.00" >> $GITHUB_STEP_SUMMARY

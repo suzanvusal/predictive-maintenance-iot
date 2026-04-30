@@ -1,0 +1,224 @@
+{
+  "project": "Predictive Maintenance IoT System with MLOps",
+  "description": "Production-grade predictive maintenance pipeline processing factory IoT sensor data in real-time to predict machine failures before they happen, using FFT features, LSTM + Isolation Forest ensemble, with automated drift detection and retraining.",
+  "phases": [
+    {"phase": 1, "name": "Foundation & IoT Data Ingestion", "days": [1,2,3,4,5], "theme": "MQTT broker, Kafka, sensor schemas, data simulation, CI/CD"},
+    {"phase": 2, "name": "Signal Processing & Feature Engineering", "days": [6,7,8,9,10], "theme": "FFT analysis, rolling statistics, anomaly scores, feature store"},
+    {"phase": 3, "name": "ML Models & Failure Prediction", "days": [11,12,13,14,15,16,17], "theme": "Isolation Forest, LSTM, ensemble, MLflow, survival analysis"},
+    {"phase": 4, "name": "Work Order & Alert System", "days": [18,19,20,21,22], "theme": "Work order creation, maintenance scheduling, Slack alerts, dashboard"},
+    {"phase": 5, "name": "Drift Detection & Auto Retraining", "days": [23,24,25,26,27], "theme": "Evidently drift, Airflow retraining DAG, validation, canary"},
+    {"phase": 6, "name": "Hardening, Tests & Documentation", "days": [28,29,30], "theme": "Integration tests, load tests, security, full docs"}
+  ],
+  "days": [
+    {
+      "day": 1, "title": "Project bootstrap & sensor schema design",
+      "focus": "Init repo, directory structure, IoT sensor data models, base configs",
+      "files_to_create": ["src/__init__.py","src/ingestion/__init__.py","src/features/__init__.py","src/models/__init__.py","src/serving/__init__.py","src/maintenance/__init__.py","src/monitoring/__init__.py","configs/base_config.yaml","Makefile","README.md"],
+      "commit_tasks": ["chore: init predictive-maintenance-iot project structure","chore: add pyproject.toml with IoT and ML dependencies","chore: add Docker Compose for MQTT, Kafka, Redis, MLflow","chore: add base_config.yaml with sensor and Kafka settings","docs: add initial README with maintenance pipeline overview","ci: add GitHub Actions CI workflow","chore: add Makefile with common dev commands","chore: add .gitignore for Python and ML artifacts","chore: add .env.example with all environment variables","fix: correct MQTT broker port in base config"],
+      "refactor_fix_commits": ["style: format all Python files with black","refactor: split docker-compose into dev and prod profiles","docs: add CONTRIBUTING.md","chore: pin all dependency versions","fix: correct Kafka broker advertised listeners"]
+    },
+    {
+      "day": 2, "title": "IoT sensor schemas & MQTT/Kafka producers",
+      "focus": "Pydantic schemas for sensor readings, MQTT subscriber, Kafka producer bridge",
+      "files_to_create": ["src/ingestion/schemas.py","src/ingestion/mqtt_subscriber.py","src/ingestion/kafka_producer.py","src/ingestion/simulator.py","tests/unit/test_schemas.py"],
+      "commit_tasks": ["feat: add SensorReading Pydantic schema with all IoT fields","feat: add MachineMetadata schema with asset information","feat: add SensorType enum: vibration, temperature, pressure, RPM","feat: implement MQTT subscriber with paho-mqtt","feat: add MQTT to Kafka bridge for message routing","feat: implement realistic IoT sensor data simulator","feat: add failure mode injection in simulator (bearing wear, overheating)","feat: implement machine pool with 50 simulated assets","feat: add sensor calibration metadata to readings","test: add schema validation tests for all sensor types"],
+      "refactor_fix_commits": ["fix: handle NaN sensor values from faulty sensors","refactor: extract MQTT config to dataclass","fix: simulator not generating realistic vibration patterns","perf: batch Kafka produces for high-throughput ingestion","docs: add sensor schema field documentation"]
+    },
+    {
+      "day": 3, "title": "Docker infrastructure & MQTT broker",
+      "focus": "Mosquitto MQTT broker, multi-stage Dockerfiles, health checks, monitoring stack",
+      "files_to_create": ["docker-compose.yml","infra/docker/Dockerfile.serving","infra/mqtt/mosquitto.conf","infra/prometheus/prometheus.yml","infra/grafana/dashboards/sensor_overview.json"],
+      "commit_tasks": ["infra: add Mosquitto MQTT broker to Docker Compose","infra: configure MQTT authentication and ACL rules","feat: add multi-stage Dockerfile for serving service","infra: add Prometheus scrape config for all services","infra: add Grafana sensor overview dashboard","infra: configure Docker volumes for MQTT persistence","infra: add health checks for all containers","infra: add Kafka JMX exporter for topic metrics","feat: add MQTT bridge config for cloud connectivity"],
+      "refactor_fix_commits": ["fix: Mosquitto config missing listener directive","refactor: consolidate env vars into .env.example","fix: Grafana provisioning path incorrect","chore: add docker-compose.override.yml for local dev","docs: add infrastructure setup guide"]
+    },
+    {
+      "day": 4, "title": "CI/CD pipeline",
+      "focus": "GitHub Actions CI with lint, test, build, security scanning",
+      "files_to_create": [".github/workflows/ci.yml","pyproject.toml",".pre-commit-config.yaml","scripts/run_tests.sh","configs/linting_config.yaml"],
+      "commit_tasks": ["ci: add GitHub Actions CI with Python 3.11 and 3.12","ci: add pytest with 80% coverage threshold","ci: add ruff linting step","ci: add mypy type checking","ci: add Docker build verification","ci: add Bandit security scan","ci: add pip-audit dependency check","ci: cache pip dependencies for faster runs","ci: add PR labeler workflow","chore: add pre-commit hooks for black and ruff"],
+      "refactor_fix_commits": ["fix: set PYTHONPATH correctly in CI","ci: add concurrency group to cancel stale runs","refactor: extract reusable CI steps","docs: add CI badge to README","fix: pre-commit failing on YAML files"]
+    },
+    {
+      "day": 5, "title": "Kafka consumer & data validation",
+      "focus": "Sensor data consumer, validation pipeline, DLQ, offset management",
+      "files_to_create": ["src/ingestion/consumer.py","src/ingestion/validator.py","src/ingestion/dlq_handler.py","configs/consumer_config.yaml","tests/unit/test_consumer.py"],
+      "commit_tasks": ["feat: implement SensorDataConsumer with manual offset commit","feat: add SensorValidator with physics-based range checks","feat: add DLQ handler for out-of-range sensor readings","feat: implement consumer group for horizontal scaling","feat: add graceful shutdown with signal handling","feat: add consumer lag metric to Prometheus","feat: implement sensor reading deduplication","feat: add data quality score per sensor","test: add consumer integration test","test: add validator tests for all sensor types"],
+      "refactor_fix_commits": ["fix: handle sensor dropout (null readings) gracefully","refactor: move consumer config to Pydantic dataclass","fix: DLQ not routing temperature out-of-range readings","perf: increase max_poll_records to 1000","docs: add consumer architecture diagram"]
+    },
+    {
+      "day": 6, "title": "Signal processing & FFT feature extraction",
+      "focus": "Fast Fourier Transform for vibration analysis, frequency domain features",
+      "files_to_create": ["src/features/fft_extractor.py","src/features/signal_processor.py","src/features/frequency_features.py","configs/fft_config.yaml","tests/unit/test_fft_extractor.py"],
+      "commit_tasks": ["feat: implement FFT extractor for vibration sensor signals","feat: add dominant frequency extraction from FFT spectrum","feat: implement spectral energy computation per frequency band","feat: add bearing fault frequency calculator (BPFI, BPFO, BSF)","feat: implement crest factor calculation for impact detection","feat: add kurtosis computation for impulsiveness detection","feat: implement spectral centroid and bandwidth features","feat: add harmonic ratio feature for gear fault detection","feat: implement signal RMS and peak-to-peak features","test: add FFT tests with known synthetic signals"],
+      "refactor_fix_commits": ["fix: FFT window size must be power of 2","refactor: extract frequency band definitions to YAML config","fix: bearing fault frequencies wrong for variable speed machines","perf: vectorise FFT computation with numpy","docs: add signal processing methodology documentation"]
+    },
+    {
+      "day": 7, "title": "Rolling statistics & time-series features",
+      "focus": "Rolling mean/std/trend, exponential smoothing, change point detection",
+      "files_to_create": ["src/features/rolling_features.py","src/features/trend_detector.py","src/features/change_point_detector.py","configs/rolling_config.yaml","tests/unit/test_rolling_features.py"],
+      "commit_tasks": ["feat: implement rolling mean and std for all sensor channels","feat: add exponential weighted moving average (EWMA) features","feat: implement linear trend slope and R-squared features","feat: add rate-of-change feature for early degradation detection","feat: implement CUSUM change point detector","feat: add Hampel outlier detector for sensor spike removal","feat: implement cross-sensor correlation features","feat: add time-since-last-maintenance feature","feat: implement operating hours accumulator","test: add rolling feature tests with synthetic degradation data"],
+      "refactor_fix_commits": ["fix: rolling window not handling data gaps correctly","refactor: make window sizes configurable per sensor type","fix: CUSUM threshold too sensitive for normal machine variation","perf: incremental rolling computation instead of full recompute","docs: add feature engineering guide to docs/features.md"]
+    },
+    {
+      "day": 8, "title": "Anomaly scoring & sensor fusion",
+      "focus": "Multi-sensor anomaly score, Mahalanobis distance, sensor fusion",
+      "files_to_create": ["src/features/anomaly_scorer.py","src/features/sensor_fusion.py","src/features/mahalanobis.py","configs/anomaly_config.yaml","tests/unit/test_anomaly_scorer.py"],
+      "commit_tasks": ["feat: implement multivariate Mahalanobis distance anomaly scorer","feat: add per-sensor Z-score normalisation","feat: implement sensor fusion combining vibration, temp, pressure","feat: add weighted anomaly score aggregation","feat: implement operating condition normalisation","feat: add anomaly score trend detector","feat: implement baseline anomaly score from healthy operation","feat: add anomaly score confidence interval","feat: implement sensor health score per asset","test: add anomaly scorer tests with known fault patterns"],
+      "refactor_fix_commits": ["fix: Mahalanobis distance singular matrix on correlated sensors","refactor: separate anomaly computation from scoring","fix: sensor fusion weights not summing to 1.0","perf: cache covariance matrix computation","docs: add anomaly scoring methodology documentation"]
+    },
+    {
+      "day": 9, "title": "Feature store & Redis caching",
+      "focus": "Redis-backed feature store, feature versioning, cache invalidation",
+      "files_to_create": ["src/features/feature_store.py","src/features/cache_manager.py","src/features/feature_schema.py","configs/redis_config.yaml","tests/unit/test_feature_store.py"],
+      "commit_tasks": ["feat: implement Redis-backed feature store for IoT assets","feat: add asset feature vector with all 47 engineered features","feat: implement feature TTL management per asset","feat: add feature versioning for model compatibility","feat: implement batch feature retrieval for training","feat: add feature store health monitoring","feat: implement feature freshness checker","feat: add stale feature detection and alerting","feat: implement feature store backup to S3","test: add feature store tests with Redis mock"],
+      "refactor_fix_commits": ["fix: feature TTL not resetting on asset activity","refactor: abstract feature store behind interface","fix: batch retrieval returning stale features","perf: compress feature vectors before Redis storage","docs: add feature store architecture diagram"]
+    },
+    {
+      "day": 10, "title": "Monitoring dashboards & Prometheus metrics",
+      "focus": "Custom IoT metrics, Grafana dashboards, SLO definitions",
+      "files_to_create": ["src/monitoring/metrics.py","infra/grafana/dashboards/asset_health.json","infra/grafana/dashboards/prediction_performance.json","infra/prometheus/rules/slo_rules.yml","configs/monitoring_config.yaml"],
+      "commit_tasks": ["feat: add Counter for sensor readings per asset per type","feat: add Histogram for prediction latency","feat: add Gauge for asset health score per machine","feat: add Counter for work orders created","feat: implement Grafana asset health dashboard","feat: implement Grafana prediction performance dashboard","feat: add SLO rule: 99% predictions under 200ms","feat: add Prometheus alert for sensor dropout","infra: configure Alertmanager for maintenance team routing"],
+      "refactor_fix_commits": ["fix: high cardinality on asset_id Prometheus label","refactor: centralise metric registration","fix: Grafana dashboard not auto-refreshing","docs: add runbook for sensor dropout alert","chore: add Prometheus recording rules for expensive queries"]
+    },
+    {
+      "day": 11, "title": "MLflow experiment tracking & training data pipeline",
+      "focus": "MLflow setup, labelled failure dataset, train/val/test split",
+      "files_to_create": ["src/models/mlflow_client.py","src/models/data_pipeline.py","src/models/label_generator.py","configs/mlflow_config.yaml","configs/training_config.yaml"],
+      "commit_tasks": ["feat: configure MLflow tracking server with PostgreSQL backend","feat: implement MLflow client wrapper with experiment management","feat: add training data extractor from feature store","feat: implement failure label generator from maintenance records","feat: add temporal train/val/test split to prevent leakage","feat: implement class rebalancing for rare failure events","feat: add dataset statistics logging to MLflow","feat: implement feature importance analysis","feat: add data quality report generation","test: add data pipeline tests for temporal split correctness"],
+      "refactor_fix_commits": ["fix: temporal leakage - val set overlaps with train window","refactor: separate label generation from feature extraction","fix: SMOTE failing with very few positive failure samples","perf: parallelise feature extraction with joblib","docs: add data dictionary for all 47 features"]
+    },
+    {
+      "day": 12, "title": "Isolation Forest for anomaly detection",
+      "focus": "Isolation Forest on sensor features, contamination tuning, scoring",
+      "files_to_create": ["src/models/isolation_forest.py","src/models/anomaly_model.py","notebooks/01_isolation_forest.ipynb","tests/unit/test_isolation_forest.py","configs/isolation_forest_config.yaml"],
+      "commit_tasks": ["feat: implement IsolationForestTrainer with MLflow tracking","feat: add contamination parameter search via cross-validation","feat: implement anomaly score normalisation 0-1","feat: add feature importance via permutation","feat: implement online anomaly scoring for streaming","feat: add anomaly threshold optimisation for precision-recall","feat: implement per-asset anomaly baseline","feat: add model serialisation with MLflow artifacts","test: add Isolation Forest tests with synthetic fault patterns"],
+      "refactor_fix_commits": ["fix: contamination too high causing false positive flood","refactor: extract scoring logic to AnomalyScorer class","fix: normalisation failing on constant sensor channels","perf: enable parallel tree building with n_jobs=-1","docs: add Isolation Forest methodology documentation"]
+    },
+    {
+      "day": 13, "title": "LSTM model for sequence-based failure prediction",
+      "focus": "PyTorch LSTM on sensor time series, sliding window, failure horizon",
+      "files_to_create": ["src/models/lstm_model.py","src/models/sequence_dataset.py","src/models/lstm_trainer.py","notebooks/02_lstm_training.ipynb","tests/unit/test_lstm_model.py"],
+      "commit_tasks": ["feat: implement LSTM model in PyTorch for failure prediction","feat: add bidirectional LSTM with attention mechanism","feat: implement SensorSequenceDataset with sliding window","feat: add PyTorch Lightning training loop with MLflow logger","feat: implement early stopping on validation loss","feat: add learning rate scheduler with warmup","feat: log training curves to MLflow every epoch","feat: add ONNX export for optimised serving","feat: implement multi-horizon prediction (24h, 48h, 72h)","test: add LSTM shape tests for all output dimensions"],
+      "refactor_fix_commits": ["fix: gradient clipping to prevent LSTM exploding gradients","refactor: separate model definition from training logic","perf: enable mixed precision fp16 training","fix: DataLoader deadlock on macOS with num_workers>0","docs: add LSTM architecture diagram to notebook"]
+    },
+    {
+      "day": 14, "title": "Survival analysis for time-to-failure prediction",
+      "focus": "Cox proportional hazards, Weibull AFT, remaining useful life estimation",
+      "files_to_create": ["src/models/survival_model.py","src/models/rul_estimator.py","notebooks/03_survival_analysis.ipynb","tests/unit/test_survival_model.py","configs/survival_config.yaml"],
+      "commit_tasks": ["feat: implement Cox proportional hazards model with lifelines","feat: add Weibull AFT model for parametric survival analysis","feat: implement remaining useful life (RUL) estimator","feat: add survival probability at 24h, 48h, 72h horizons","feat: implement Kaplan-Meier estimator for asset cohorts","feat: add concordance index evaluation metric","feat: log survival curves as MLflow artifacts","feat: implement RUL confidence interval estimation","test: add survival model tests with known failure distributions"],
+      "refactor_fix_commits": ["fix: right-censoring not handled correctly in training data","refactor: extract survival feature preparation to separate class","fix: concordance index failing with tied survival times","perf: cache baseline hazard computation","docs: add survival analysis methodology to docs/models.md"]
+    },
+    {
+      "day": 15, "title": "Ensemble model: IF + LSTM + Survival",
+      "focus": "Three-model ensemble, score fusion, confidence estimation",
+      "files_to_create": ["src/models/ensemble.py","src/models/score_fusion.py","notebooks/04_ensemble_analysis.ipynb","tests/unit/test_ensemble.py","configs/ensemble_config.yaml"],
+      "commit_tasks": ["feat: implement MaintenanceEnsemble combining IF, LSTM, Survival","feat: add weighted score fusion with configurable weights","feat: implement ensemble confidence score computation","feat: add dynamic weight adjustment based on recent accuracy","feat: implement failure probability aggregation","feat: add ensemble explanation with per-model contribution","feat: implement ensemble threshold optimisation","feat: add ensemble A/B comparison framework","test: add ensemble tests verifying combined AUC > individual models"],
+      "refactor_fix_commits": ["fix: ensemble weights not normalising correctly","refactor: decouple score fusion from ensemble class","fix: confidence estimation overconfident on edge cases","perf: parallelise model inference across ensemble","docs: add ensemble methodology to docs/models.md"]
+    },
+    {
+      "day": 16, "title": "FastAPI prediction serving endpoint",
+      "focus": "FastAPI inference API, asset health score, failure probability endpoint",
+      "files_to_create": ["src/serving/api.py","src/serving/prediction_service.py","src/serving/request_models.py","src/serving/response_models.py","tests/unit/test_serving_api.py"],
+      "commit_tasks": ["feat: scaffold FastAPI app with lifespan model loading","feat: add GET /assets/{id}/health endpoint for current health score","feat: add GET /assets/{id}/predict for failure probability","feat: add POST /assets/batch/predict for fleet-wide predictions","feat: implement model loading from MLflow Production stage","feat: add Redis response cache with 30-second TTL","feat: add Prometheus latency middleware","feat: add request ID tracing","feat: implement async inference with thread pool","test: add pytest-asyncio tests for all endpoints"],
+      "refactor_fix_commits": ["perf: preload model on startup to avoid cold start","fix: cache TTL too short causing repeated inference","refactor: separate prediction logic from route handlers","fix: batch endpoint timeout on large fleet queries","docs: generate OpenAPI spec and publish to /docs"]
+    },
+    {
+      "day": 17, "title": "Prediction logging & maintenance feedback",
+      "focus": "Structured prediction logs, actual failure outcomes, feedback loop",
+      "files_to_create": ["src/serving/prediction_logger.py","src/serving/outcome_recorder.py","src/monitoring/prediction_store.py","configs/logging_config.yaml","tests/unit/test_prediction_logger.py"],
+      "commit_tasks": ["feat: implement structured prediction logger to PostgreSQL","feat: log asset_id, model_version, scores, features, timestamp","feat: add outcome recorder for actual failure events","feat: implement prediction-to-outcome join for model evaluation","feat: add rolling precision/recall from feedback loop","feat: implement prediction log archival after 90 days","feat: add data export for retraining dataset assembly","feat: implement missed failure alert (predicted safe, actually failed)","test: add prediction logger completeness tests"],
+      "refactor_fix_commits": ["fix: prediction_id collision on concurrent requests","refactor: use asyncpg for async PostgreSQL logging","fix: outcome recorder failing on duplicate failure reports","perf: batch prediction log writes every 500ms","docs: add data lineage diagram to docs/architecture.md"]
+    },
+    {
+      "day": 18, "title": "Work order creation & maintenance scheduling",
+      "focus": "Automated work order generation, priority scheduling, CMMS integration",
+      "files_to_create": ["src/maintenance/work_order.py","src/maintenance/scheduler.py","src/maintenance/priority_engine.py","configs/maintenance_config.yaml","tests/unit/test_work_order.py"],
+      "commit_tasks": ["feat: implement WorkOrderManager for automated maintenance requests","feat: add work order priority scoring based on failure probability","feat: implement maintenance schedule optimiser for fleet","feat: add CMMS webhook integration for work order submission","feat: implement work order deduplication (avoid duplicate requests)","feat: add maintenance window planner (production schedule aware)","feat: implement work order SLA tracking","feat: add work order completion feedback loop","test: add work order tests for all priority levels"],
+      "refactor_fix_commits": ["fix: priority scorer not considering production criticality","refactor: separate scheduling from work order creation","fix: CMMS webhook timeout not handled correctly","perf: cache production schedule lookups","docs: add maintenance workflow guide to docs/maintenance.md"]
+    },
+    {
+      "day": 19, "title": "Alert engine & escalation",
+      "focus": "Multi-tier alert system, escalation policies, alert routing",
+      "files_to_create": ["src/maintenance/alert_engine.py","src/maintenance/escalation_manager.py","src/maintenance/notification_router.py","configs/alert_config.yaml","tests/unit/test_alert_engine.py"],
+      "commit_tasks": ["feat: implement AlertEngine with three severity tiers","feat: add CRITICAL alert: failure probability > 80% within 24h","feat: add WARNING alert: failure probability > 50% within 48h","feat: add INFO alert: anomaly score > threshold","feat: implement alert deduplication with 1-hour cooldown","feat: add escalation: unresolved CRITICAL after 30min → page manager","feat: implement notification router: Slack, email, PagerDuty","feat: add alert audit log to PostgreSQL","test: add alert engine tests for all threshold combinations"],
+      "refactor_fix_commits": ["fix: alert cooldown not resetting after work order created","refactor: move alert rules to YAML config","fix: escalation timer not cancelling on alert resolution","perf: cache alert rule evaluation","docs: add alert escalation runbook"]
+    },
+    {
+      "day": 20, "title": "Grafana maintenance dashboards",
+      "focus": "Fleet health overview, failure risk heatmap, maintenance calendar",
+      "files_to_create": ["infra/grafana/dashboards/fleet_health.json","infra/grafana/dashboards/failure_risk.json","infra/grafana/dashboards/maintenance_calendar.json","infra/grafana/provisioning/dashboards.yaml","scripts/grafana_import.sh"],
+      "commit_tasks": ["feat: add Grafana fleet health overview dashboard","feat: add failure risk heatmap by asset and time","feat: implement sensor signal panel with anomaly overlay","feat: add maintenance calendar panel","feat: implement RUL gauge panel per critical asset","feat: add prediction accuracy trend panel","feat: implement alert event timeline panel","infra: add dashboard provisioning config","feat: add drill-down from fleet to individual asset view"],
+      "refactor_fix_commits": ["fix: Grafana panel queries using wrong metric labels","refactor: extract repeated JSON to Grafana template","fix: fleet heatmap not updating in real-time","style: consistent colour scheme for risk levels","chore: version-control dashboards with jq formatting"]
+    },
+    {
+      "day": 21, "title": "Slack & PagerDuty alerting",
+      "focus": "Alert dispatcher, rich Slack messages, PagerDuty escalation, runbooks",
+      "files_to_create": ["src/monitoring/alert_dispatcher.py","src/monitoring/alert_templates.py","configs/alerting_config.yaml","docs/runbooks/critical_failure_response.md","tests/unit/test_alert_dispatcher.py"],
+      "commit_tasks": ["feat: implement AlertDispatcher with Slack webhook","feat: add rich Slack message with asset details and risk gauge","feat: implement PagerDuty routing for CRITICAL alerts","feat: add alert deduplication with configurable cooldown","feat: implement daily fleet health summary to Slack","feat: add alert acknowledgment tracking in Redis","feat: implement alert escalation for unacknowledged CRITICAL","docs: add critical failure response runbook","test: add mock Slack webhook tests for all alert types"],
+      "refactor_fix_commits": ["fix: Slack message truncated for long asset names","refactor: move templates to Jinja2","fix: PagerDuty dedup_key causing alert merging","docs: add on-call guide to docs/alerting.md","chore: add maintenance window suppression config"]
+    },
+    {
+      "day": 22, "title": "Integration tests — full pipeline",
+      "focus": "End-to-end tests: sensor data to work order creation",
+      "files_to_create": ["tests/integration/test_full_pipeline.py","tests/integration/test_prediction_pipeline.py","tests/integration/sensor_simulator.py","tests/conftest.py","scripts/run_integration_tests.sh"],
+      "commit_tasks": ["test: add full pipeline integration test: sensor to work order","test: verify CRITICAL alert on injected bearing fault","test: verify work order created for high-risk asset","test: verify prediction accuracy on known failure dataset","test: add chaos test: sensor dropout during prediction","test: verify DLQ routing on out-of-range readings","feat: add sensor fault injection for testing","ci: add integration test step to CI pipeline"],
+      "refactor_fix_commits": ["fix: integration test not cleaning up Redis feature store","refactor: extract fixtures to conftest.py","fix: sensor simulator not generating realistic fault progression","ci: run integration tests only on main branch","docs: add integration test guide"]
+    },
+    {
+      "day": 23, "title": "Evidently drift detection",
+      "focus": "Sensor data drift, prediction drift, model performance monitoring",
+      "files_to_create": ["src/monitoring/drift_detector.py","src/monitoring/reference_builder.py","src/monitoring/performance_monitor.py","configs/drift_config.yaml","tests/unit/test_drift_detector.py"],
+      "commit_tasks": ["feat: implement Evidently DataDriftPreset for sensor features","feat: add reference dataset builder from healthy operation window","feat: implement scheduled drift report runner every 6 hours","feat: add prediction drift monitoring with PSI","feat: implement rolling concordance index monitor","feat: add drift severity classification: none/warning/critical","feat: save drift reports as HTML to S3","feat: implement drift metric emission to Prometheus","test: add drift detection test with synthetic sensor degradation"],
+      "refactor_fix_commits": ["fix: Evidently failing on FFT features with zero variance","refactor: parameterise drift thresholds in config","fix: reference dataset builder including failure periods","perf: run drift reports in parallel per sensor type","docs: add drift detection methodology to docs/drift.md"]
+    },
+    {
+      "day": 24, "title": "Airflow retraining DAG",
+      "focus": "Drift-triggered retraining, dataset assembly, model training orchestration",
+      "files_to_create": ["infra/airflow/docker-compose.airflow.yml","src/retraining/__init__.py","src/retraining/dags/maintenance_model_retraining.py","src/retraining/dataset_assembler.py","configs/airflow_config.yaml"],
+      "commit_tasks": ["infra: add Airflow with CeleryExecutor docker-compose","feat: scaffold maintenance_model_retraining DAG","feat: add DriftSensor polling Prometheus drift metrics","feat: implement dataset assembly task with failure labels","feat: add feature engineering task","feat: add Isolation Forest retraining task","feat: add LSTM retraining task","feat: add ensemble update task","ci: add Airflow DAG import validation"],
+      "refactor_fix_commits": ["fix: Airflow FERNET_KEY not set causing startup failure","refactor: move DAG defaults to shared module","fix: CeleryExecutor worker not detecting DAG changes","chore: add airflow db upgrade to startup script","docs: add Airflow setup guide to docs/airflow.md"]
+    },
+    {
+      "day": 25, "title": "Model validation & canary deployment",
+      "focus": "Validation gates, champion/challenger, canary deployment with rollback",
+      "files_to_create": ["src/retraining/model_validator.py","src/retraining/canary_manager.py","src/retraining/model_promoter.py","tests/unit/test_model_validator.py","configs/validation_config.yaml"],
+      "commit_tasks": ["feat: implement model validator with concordance and precision gates","feat: add DeLong test for AUC comparison significance","feat: implement champion/challenger comparison on holdout set","feat: add missed failure rate validation gate","feat: implement canary deployment manager","feat: add traffic ramp: 1% to 5% to 20% to 100%","feat: implement automatic rollback on missed failure spike","feat: add automated MLflow stage promotion on validation pass","test: add validator tests for promotion blocking"],
+      "refactor_fix_commits": ["fix: DeLong test wrong variance formula","refactor: decouple validation from MLflow registration","fix: canary rollback not switching model pointer atomically","docs: add model governance policy","chore: add validation report template"]
+    },
+    {
+      "day": 26, "title": "Load testing & performance benchmarking",
+      "focus": "Locust load tests, prediction throughput, feature store latency",
+      "files_to_create": ["tests/load/locustfile.py","tests/load/scenarios/prediction_load.py","tests/load/scenarios/fleet_health_load.py","docs/performance_report.md","scripts/run_load_test.sh"],
+      "commit_tasks": ["test: add Locust load test for /assets/{id}/predict","test: add fleet batch prediction scenario (1000 assets)","test: add concurrent sensor ingestion scenario","feat: add async prediction pool for throughput","perf: add prediction cache reducing P50 by 50%","perf: tune uvicorn worker count","perf: optimise feature retrieval with Redis pipeline","docs: add performance benchmark results"],
+      "refactor_fix_commits": ["fix: memory leak in feature store under sustained load","perf: profile and fix N+1 Redis queries","refactor: switch sync DB calls to async","fix: Kafka consumer lag under burst sensor load","docs: add capacity planning guide"]
+    },
+    {
+      "day": 27, "title": "Security hardening & compliance",
+      "focus": "Asset data encryption, audit logging, access control, OT/IT security",
+      "files_to_create": ["src/security/__init__.py","src/security/encryption.py","src/security/audit_logger.py","src/security/access_control.py","docs/security_architecture.md"],
+      "commit_tasks": ["feat: implement AES-256 encryption for sensitive asset data","feat: add comprehensive audit logger for all prediction events","feat: implement role-based access control (operator/engineer/admin)","feat: add API rate limiting per client role","feat: implement JWT authentication with short expiry","feat: add network segmentation config for OT/IT boundary","feat: implement secure sensor data transmission with TLS","docs: add OT/IT security architecture document","test: add security tests for access control enforcement"],
+      "refactor_fix_commits": ["fix: audit log missing user_id on system-triggered predictions","refactor: centralise access control rules","fix: rate limiter not applying to batch endpoints","docs: add security hardening checklist","chore: add SAST scan to CI pipeline"]
+    },
+    {
+      "day": 28, "title": "Comprehensive test suite",
+      "focus": "Unit test coverage > 80%, property tests, mutation testing",
+      "files_to_create": ["tests/unit/test_fft_extractor.py","tests/unit/test_rolling_features.py","tests/unit/test_anomaly_scorer.py","tests/unit/test_work_order.py","scripts/mutation_test.sh"],
+      "commit_tasks": ["test: add unit tests for all FFT feature computations","test: add property-based tests for signal processor","test: add parametrised tests for all anomaly thresholds","test: add work order priority tests for all failure levels","test: add survival model tests with known distributions","test: run mutmut mutation testing and fix surviving mutants","ci: enforce 80% coverage threshold","ci: add coverage report to Codecov"],
+      "refactor_fix_commits": ["fix: 9 failing tests from schema field rename","refactor: consolidate fixtures in conftest.py","fix: flaky FFT test due to floating point precision","test: add snapshot tests for API response schemas","docs: document test strategy in docs/testing.md"]
+    },
+    {
+      "day": 29, "title": "Kubernetes deployment manifests",
+      "focus": "K8s deployments, HPA autoscaling, StatefulSets, network policies",
+      "files_to_create": ["infra/k8s/namespace.yaml","infra/k8s/prediction-deployment.yaml","infra/k8s/ingestion-deployment.yaml","infra/k8s/hpa.yaml","infra/k8s/network-policy.yaml"],
+      "commit_tasks": ["infra: add Kubernetes namespace with resource quotas","infra: add prediction service deployment with 2 replicas","infra: add sensor ingestion service deployment","infra: add HPA scaling on CPU and custom prediction latency metric","infra: add PodDisruptionBudget for zero-downtime deploys","infra: add Network Policies for OT/IT boundary enforcement","infra: add ConfigMap for environment configuration","infra: add Ingress with TLS termination","infra: add PVC for MLflow artifact storage"],
+      "refactor_fix_commits": ["fix: HPA min replicas too low for production sensor load","refactor: extract K8s labels to kustomize base","fix: Network Policy blocking MQTT broker connectivity","docs: add Kubernetes deployment guide","chore: add kubectl dry-run to CI pipeline"]
+    },
+    {
+      "day": 30, "title": "Final polish, README & project completion",
+      "focus": "Complete README, architecture diagrams, changelog, v1.0.0 release",
+      "files_to_create": ["README.md","docs/architecture.md","docs/deployment_guide.md","CHANGELOG.md","SECURITY.md"],
+      "commit_tasks": ["docs: complete README with architecture diagram and quick start","docs: add comprehensive system architecture document","docs: add production deployment guide","docs: add CHANGELOG for v1.0.0","security: add SECURITY.md with vulnerability reporting","chore: tag v1.0.0 release","ci: add end-to-end smoke test to release pipeline","docs: add predictive maintenance ROI calculator to README","chore: final dependency audit","chore: archive development notebooks"],
+      "refactor_fix_commits": ["docs: fix broken links in README","fix: env variable names inconsistent across services","refactor: remove all TODO comments","style: enforce consistent logging format","chore: update all Docker base images to latest stable"]
+    }
+  ]
+}

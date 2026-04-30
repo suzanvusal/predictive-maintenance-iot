@@ -1,0 +1,12 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: maintenance-api
+    static_configs:
+      - targets: ["host.docker.internal:8000"]
+    metrics_path: /metrics
+
+  - job_name: kafka-jmx
+    static_configs:
+      - targets: ["kafka:9101"]
