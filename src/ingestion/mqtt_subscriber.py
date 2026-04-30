@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 15:09:53 — refactor: extract MQTT config to dataclass
+
+# 15:09:53 — docs: add module docstring to mqtt_subscriber
