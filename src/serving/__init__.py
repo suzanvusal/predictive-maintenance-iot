@@ -1,1 +1,1 @@
-"""FastAPI prediction API for asset health and failure probability."""
+"""FastAPI prediction API for asset health scores."""
