@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 15:09:53 — test: add schema validation tests for all sensor types
 
 # 15:09:53 — fix: handle NaN sensor values from faulty sensors
+
+# 15:09:53 — fix: simulator not generating realistic vibration patterns
