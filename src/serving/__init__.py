@@ -5,3 +5,5 @@
 # 02:23:51 — fix: correct MQTT broker port in base config
 
 # 02:23:51 — fix: correct off-by-one in __init__
+
+# 15:09:53 — test: add assertion for return type in __init__
