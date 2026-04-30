@@ -1,1 +1,1 @@
-"""IoT data ingestion: MQTT, Kafka, sensor schemas, simulators."""
+"""IoT data ingestion: MQTT, Kafka, sensor schemas."""
