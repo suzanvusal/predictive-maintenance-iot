@@ -2,3 +2,5 @@
 __version__ = "0.1.0"
 
 # 02:23:51 — perf: add caching in __init__
+
+# 15:09:53 — fix: correct off-by-one in __init__
