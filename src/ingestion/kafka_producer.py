@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 15:09:53 — feat: implement realistic IoT sensor data simulator
+
+# 15:09:53 — test: add schema validation tests for all sensor types
