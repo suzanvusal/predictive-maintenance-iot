@@ -56,3 +56,5 @@ def test_sensor_batch_count():
     assert batch.sensor_count == 3
 
 # 15:09:53 — feat: add failure mode injection in simulator (bearing wear,
+
+# 15:09:53 — docs: update docstring example in test_schemas
