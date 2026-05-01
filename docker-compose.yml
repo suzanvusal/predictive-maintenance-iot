@@ -88,3 +88,5 @@ volumes:
   postgres_data:
   mlflow_artifacts:
   grafana_data:
+
+# 14:16:38 — feat: add MQTT bridge config for cloud connectivity
