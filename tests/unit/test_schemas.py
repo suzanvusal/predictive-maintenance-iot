@@ -58,3 +58,5 @@ def test_sensor_batch_count():
 # 15:09:53 — feat: add failure mode injection in simulator (bearing wear,
 
 # 15:09:53 — docs: update docstring example in test_schemas
+
+# 14:16:38 — fix: remove unused import in test_schemas
