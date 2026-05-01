@@ -75,3 +75,5 @@ class SensorBatch(BaseModel):
 # 15:09:53 — feat: implement machine pool with 50 simulated assets
 
 # 15:09:53 — feat: add sensor calibration metadata to readings
+
+# 14:16:38 — refactor: extract constant in schemas
