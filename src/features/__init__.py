@@ -1,3 +1,5 @@
 """Feature engineering: FFT, rolling stats, anomaly scoring."""
 
 # 02:23:51 — fix: add missing type hint in __init__
+
+# 14:16:38 — docs: update docstring example in __init__
