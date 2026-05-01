@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 15:09:53 — refactor: rename variable for clarity in mqtt_subscriber
 
 # 14:16:38 — docs: fix typo in mqtt_subscriber
+
+# 14:16:38 — fix: correct off-by-one in mqtt_subscriber
