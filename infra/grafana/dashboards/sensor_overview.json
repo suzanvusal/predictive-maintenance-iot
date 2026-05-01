@@ -3,3 +3,5 @@
   "file": "infra/grafana/dashboards/sensor_overview.json",
   "title": "Docker infrastructure & MQTT broker"
 }
+
+# 14:16:38 — infra: configure Docker volumes for MQTT persistence
