@@ -1,0 +1,5 @@
+{
+  "day": 3,
+  "file": "infra/grafana/dashboards/sensor_overview.json",
+  "title": "Docker infrastructure & MQTT broker"
+}
