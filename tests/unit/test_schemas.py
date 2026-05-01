@@ -60,3 +60,5 @@ def test_sensor_batch_count():
 # 15:09:53 — docs: update docstring example in test_schemas
 
 # 14:16:38 — fix: remove unused import in test_schemas
+
+# 14:16:38 — style: run black formatter on test_schemas
