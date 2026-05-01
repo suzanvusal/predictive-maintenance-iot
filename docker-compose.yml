@@ -92,3 +92,5 @@ volumes:
 # 14:16:38 — feat: add MQTT bridge config for cloud connectivity
 
 # 14:16:38 — fix: Grafana provisioning path incorrect
+
+# 14:16:38 — chore: add docker-compose.override.yml for local dev
