@@ -3,3 +3,5 @@
 # Generated: 2026-05-01T14:16:38.830497+00:00
 
 # 14:16:38 — infra: add Kafka JMX exporter for topic metrics
+
+# 14:16:38 — fix: Mosquitto config missing listener directive
