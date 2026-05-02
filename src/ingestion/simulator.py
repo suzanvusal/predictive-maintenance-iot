@@ -111,3 +111,5 @@ def machine_stream(
         time.sleep(interval)
 
 # 15:09:53 — refactor: extract constant in simulator
+
+# 14:09:55 — fix: correct off-by-one in simulator
