@@ -5,3 +5,5 @@
 # 14:09:55 — ci: add pip-audit dependency check
 
 # 14:09:55 — ci: cache pip dependencies for faster runs
+
+# 14:09:55 — ci: add PR labeler workflow
