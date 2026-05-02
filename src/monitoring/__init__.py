@@ -9,3 +9,5 @@
 # 02:23:51 — fix: handle None edge case in __init__
 
 # 15:09:53 — docs: update docstring example in __init__
+
+# 14:09:55 — fix: add missing type hint in __init__
