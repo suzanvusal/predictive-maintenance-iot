@@ -3,3 +3,5 @@
 # Generated: 2026-05-02T14:09:55.304886+00:00
 
 # 14:09:55 — ci: add Bandit security scan
+
+# 14:09:55 — chore: add pre-commit hooks for black and ruff
