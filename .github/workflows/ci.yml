@@ -5,3 +5,5 @@
 # 14:09:55 — ci: add Bandit security scan
 
 # 14:09:55 — chore: add pre-commit hooks for black and ruff
+
+# 14:09:55 — refactor: extract reusable CI steps
