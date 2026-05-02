@@ -68,3 +68,5 @@ def test_sensor_batch_count():
 # 14:09:55 — fix: remove unused import in test_schemas
 
 # 14:09:55 — style: run black formatter on test_schemas
+
+# 14:09:55 — docs: fix typo in test_schemas
