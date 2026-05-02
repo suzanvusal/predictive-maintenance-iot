@@ -3,3 +3,5 @@
 # Generated: 2026-05-02T14:09:55.333953+00:00
 
 # 14:09:55 — ci: add pip-audit dependency check
+
+# 14:09:55 — ci: cache pip dependencies for faster runs
