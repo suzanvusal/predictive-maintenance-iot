@@ -1,3 +1,5 @@
 # .pre-commit-config.yaml
 # Day 4: CI/CD pipeline
 # Generated: 2026-05-02T14:09:55.320176+00:00
+
+# 14:09:55 — fix: set PYTHONPATH correctly in CI
