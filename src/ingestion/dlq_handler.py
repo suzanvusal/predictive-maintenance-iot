@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 14:10:39 — feat: implement sensor reading deduplication
+
+# 14:10:39 — test: add validator tests for all sensor types
