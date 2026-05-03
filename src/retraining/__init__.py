@@ -7,3 +7,5 @@
 # 14:16:38 — fix: handle None edge case in __init__
 
 # 14:09:55 — docs: add module docstring to __init__
+
+# 14:10:39 — fix: handle None edge case in __init__
