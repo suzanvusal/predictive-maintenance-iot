@@ -3,3 +3,5 @@
 # Generated: 2026-05-03T14:10:39.501537+00:00
 
 # 14:10:39 — feat: add data quality score per sensor
+
+# 14:10:39 — refactor: move consumer config to Pydantic dataclass
