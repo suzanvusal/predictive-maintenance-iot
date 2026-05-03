@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 15:09:53 — fix: handle NaN sensor values from faulty sensors
 
 # 15:09:53 — fix: simulator not generating realistic vibration patterns
+
+# 14:10:39 — docs: fix typo in kafka_producer
