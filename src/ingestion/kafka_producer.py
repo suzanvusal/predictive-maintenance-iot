@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 15:09:53 — fix: simulator not generating realistic vibration patterns
 
 # 14:10:39 — docs: fix typo in kafka_producer
+
+# 14:10:39 — fix: handle None edge case in kafka_producer
