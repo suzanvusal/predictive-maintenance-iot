@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 14:16:38 — fix: correct off-by-one in mqtt_subscriber
 
 # 14:10:39 — style: run black formatter on mqtt_subscriber
+
+# 15:10:00 — docs: fix typo in mqtt_subscriber
