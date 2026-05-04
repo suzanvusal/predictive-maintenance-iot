@@ -112,3 +112,5 @@ class FFTFeatureExtractor:
                      center: float, bw: float = 5.0) -> float:
         mask = (freqs >= center - bw) & (freqs <= center + bw)
         return float(np.sum(fft_vals[mask] ** 2))
+
+# 15:10:00 — feat: implement spectral centroid and bandwidth features
