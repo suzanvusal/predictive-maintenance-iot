@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 14:10:39 — fix: DLQ not routing temperature out-of-range readings
 
 # 14:10:39 — fix: correct off-by-one in consumer
+
+# 15:10:00 — fix: add missing type hint in consumer
