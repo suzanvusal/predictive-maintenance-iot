@@ -4,3 +4,5 @@
 # 02:23:51 — docs: update docstring example in __init__
 
 # 15:09:53 — docs: update docstring example in __init__
+
+# 15:10:00 — docs: add module docstring to __init__
