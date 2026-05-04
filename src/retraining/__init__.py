@@ -9,3 +9,5 @@
 # 14:09:55 — docs: add module docstring to __init__
 
 # 14:10:39 — fix: handle None edge case in __init__
+
+# 15:10:00 — docs: update docstring example in __init__
