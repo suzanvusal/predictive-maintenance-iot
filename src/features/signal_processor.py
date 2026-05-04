@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 15:10:00 — feat: add kurtosis computation for impulsiveness detection
