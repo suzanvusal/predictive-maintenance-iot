@@ -114,3 +114,5 @@ class FFTFeatureExtractor:
         return float(np.sum(fft_vals[mask] ** 2))
 
 # 15:10:00 — feat: implement spectral centroid and bandwidth features
+
+# 15:10:00 — fix: FFT window size must be power of 2
