@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 15:26:39 — test: add rolling feature tests with synthetic degradation d
