@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 15:26:39 — test: add rolling feature tests with synthetic degradation d
 
 # 15:26:39 — fix: handle None edge case in change_point_detector
+
+# 15:26:39 — docs: fix typo in change_point_detector
