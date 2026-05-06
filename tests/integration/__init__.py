@@ -4,3 +4,5 @@
 # 15:26:39 — fix: add missing type hint in __init__
 
 # 15:26:39 — test: add assertion for return type in __init__
+
+# 15:26:39 — docs: add module docstring to __init__
