@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 15:26:39 — feat: add time-since-last-maintenance feature
 
 # 15:26:39 — fix: rolling window not handling data gaps correctly
+
+# 15:26:39 — refactor: make window sizes configurable per sensor type
