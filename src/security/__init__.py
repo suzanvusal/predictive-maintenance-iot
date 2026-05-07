@@ -7,3 +7,5 @@
 # 14:09:55 — fix: remove unused import in __init__
 
 # 14:10:39 — fix: remove unused import in __init__
+
+# 15:27:44 — docs: add module docstring to __init__
