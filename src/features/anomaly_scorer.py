@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 15:27:44 — fix: sensor fusion weights not summing to 1.0
