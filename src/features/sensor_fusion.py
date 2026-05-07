@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 15:27:44 — feat: add anomaly score trend detector
 
 # 15:27:44 — test: add anomaly scorer tests with known fault patterns
+
+# 15:27:44 — fix: Mahalanobis distance singular matrix on correlated sens
