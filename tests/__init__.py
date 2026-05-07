@@ -8,3 +8,5 @@
 # 15:10:00 — docs: add module docstring to __init__
 
 # 15:26:39 — chore: add logging to __init__
+
+# 15:27:44 — fix: add missing type hint in __init__
