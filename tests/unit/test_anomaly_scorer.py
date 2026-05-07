@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 15:27:44 — feat: add anomaly score confidence interval
+
+# 15:27:44 — refactor: separate anomaly computation from scoring
