@@ -13,3 +13,5 @@
 # 15:10:00 — docs: update docstring example in __init__
 
 # 14:50:43 — test: add assertion for return type in __init__
+
+# 14:50:43 — fix: add missing type hint in __init__
