@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 14:10:39 — style: run black formatter on mqtt_subscriber
 
 # 15:10:00 — docs: fix typo in mqtt_subscriber
+
+# 14:50:43 — docs: add module docstring to mqtt_subscriber
