@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 14:50:43 — refactor: abstract feature store behind interface
 
 # 14:50:43 — perf: add caching in feature_schema
+
+# 14:50:43 — refactor: rename variable for clarity in feature_schema
