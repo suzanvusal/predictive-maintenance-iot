@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 15:26:39 — refactor: make window sizes configurable per sensor type
 
 # 15:26:39 — refactor: extract constant in rolling_features
+
+# 14:50:43 — refactor: rename variable for clarity in rolling_features
