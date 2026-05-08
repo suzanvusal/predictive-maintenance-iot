@@ -3,3 +3,5 @@
 # Generated: 2026-05-08T14:50:43.175730+00:00
 
 # 14:50:43 — test: add feature store tests with Redis mock
+
+# 14:50:43 — fix: batch retrieval returning stale features
