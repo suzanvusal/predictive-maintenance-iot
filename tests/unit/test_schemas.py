@@ -70,3 +70,5 @@ def test_sensor_batch_count():
 # 14:09:55 — style: run black formatter on test_schemas
 
 # 14:09:55 — docs: fix typo in test_schemas
+
+# 14:50:43 — test: add assertion for return type in test_schemas
