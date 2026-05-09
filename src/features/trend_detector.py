@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 14:16:32 — docs: fix typo in trend_detector
