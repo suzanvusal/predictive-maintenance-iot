@@ -3,3 +3,5 @@
 # Generated: 2026-05-09T14:16:32.260607+00:00
 
 # 14:16:32 — feat: add SLO rule: 99% predictions under 200ms
+
+# 14:16:32 — feat: add Prometheus alert for sensor dropout
