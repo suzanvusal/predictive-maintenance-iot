@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 15:10:00 — docs: fix typo in mqtt_subscriber
 
 # 14:50:43 — docs: add module docstring to mqtt_subscriber
+
+# 14:16:32 — chore: add logging to mqtt_subscriber
