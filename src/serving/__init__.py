@@ -17,3 +17,5 @@
 # 14:09:55 — docs: add module docstring to __init__
 
 # 14:09:55 — docs: add module docstring to __init__
+
+# 14:16:32 — test: add assertion for return type in __init__
