@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 14:16:32 — fix: high cardinality on asset_id Prometheus label
