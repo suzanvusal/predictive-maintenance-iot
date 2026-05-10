@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 14:19:31 — test: add data pipeline tests for temporal split correctness
