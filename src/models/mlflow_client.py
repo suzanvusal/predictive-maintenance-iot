@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 14:19:31 — feat: add dataset statistics logging to MLflow
+
+# 14:19:31 — fix: SMOTE failing with very few positive failure samples
