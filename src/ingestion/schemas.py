@@ -77,3 +77,5 @@ class SensorBatch(BaseModel):
 # 15:09:53 — feat: add sensor calibration metadata to readings
 
 # 14:16:38 — refactor: extract constant in schemas
+
+# 14:19:31 — fix: handle None edge case in schemas
