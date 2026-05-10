@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 15:26:39 — refactor: extract constant in rolling_features
 
 # 14:50:43 — refactor: rename variable for clarity in rolling_features
+
+# 14:19:31 — test: add assertion for return type in rolling_features
