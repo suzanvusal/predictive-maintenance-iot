@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 15:10:00 — feat: add harmonic ratio feature for gear fault detection
 
 # 15:10:00 — feat: implement signal RMS and peak-to-peak features
+
+# 14:19:31 — fix: correct off-by-one in test_fft_extractor
