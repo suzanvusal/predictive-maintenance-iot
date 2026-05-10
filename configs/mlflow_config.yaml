@@ -1,3 +1,5 @@
 # configs/mlflow_config.yaml
 # Day 11: MLflow experiment tracking & training data pipeline
 # Generated: 2026-05-10T14:19:31.690804+00:00
+
+# 14:19:31 — fix: temporal leakage - val set overlaps with train window
