@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 14:19:31 — test: add data pipeline tests for temporal split correctness
+
+# 14:19:31 — refactor: separate label generation from feature extraction
