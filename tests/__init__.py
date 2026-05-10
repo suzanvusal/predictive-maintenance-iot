@@ -12,3 +12,5 @@
 # 15:27:44 — fix: add missing type hint in __init__
 
 # 14:19:31 — chore: day 11 maintenance sweep
+
+# 14:19:31 — docs: update docstring example in __init__
