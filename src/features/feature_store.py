@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 14:50:43 — fix: feature TTL not resetting on asset activity
 
 # 14:16:32 — perf: add caching in feature_store
+
+# 14:19:31 — docs: fix typo in feature_store
