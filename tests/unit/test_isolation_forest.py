@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 15:54:40 — docs: add module docstring to test_isolation_forest
