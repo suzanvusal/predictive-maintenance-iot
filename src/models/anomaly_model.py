@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 15:54:40 — feat: implement per-asset anomaly baseline
 
 # 15:54:40 — fix: contamination too high causing false positive flood
+
+# 15:54:40 — perf: enable parallel tree building with n_jobs=-1
