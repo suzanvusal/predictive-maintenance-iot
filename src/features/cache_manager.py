@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 14:50:43 — feat: add feature store health monitoring
+
+# 15:54:40 — fix: add missing type hint in cache_manager
