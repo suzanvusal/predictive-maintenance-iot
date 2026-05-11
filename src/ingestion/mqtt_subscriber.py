@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 14:50:43 — docs: add module docstring to mqtt_subscriber
 
 # 14:16:32 — chore: add logging to mqtt_subscriber
+
+# 15:54:40 — refactor: extract constant in mqtt_subscriber
