@@ -120,3 +120,5 @@ class FFTFeatureExtractor:
 # 15:10:00 — refactor: extract frequency band definitions to YAML config
 
 # 15:10:00 — docs: fix typo in fft_extractor
+
+# 15:54:40 — test: add assertion for return type in fft_extractor
