@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 15:54:40 — chore: day 12 maintenance sweep
 
 # 15:54:40 — docs: fix typo in anomaly_scorer
+
+# 15:39:09 — chore: add logging to anomaly_scorer
