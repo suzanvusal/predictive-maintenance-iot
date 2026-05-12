@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 15:26:39 — perf: add caching in test_consumer
 
 # 14:16:32 — test: add assertion for return type in test_consumer
+
+# 15:39:09 — fix: correct off-by-one in test_consumer
