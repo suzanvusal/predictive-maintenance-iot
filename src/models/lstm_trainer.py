@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 15:39:09 — feat: add ONNX export for optimised serving
 
 # 15:39:09 — feat: implement multi-horizon prediction (24h, 48h, 72h)
+
+# 15:39:09 — refactor: separate model definition from training logic
