@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 14:50:43 — perf: add caching in feature_schema
 
 # 14:50:43 — refactor: rename variable for clarity in feature_schema
+
+# 15:39:09 — fix: correct off-by-one in feature_schema
