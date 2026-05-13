@@ -121,3 +121,5 @@ def machine_stream(
 # 14:16:32 — style: reorder imports in simulator
 
 # 15:54:40 — style: run black formatter on simulator
+
+# 15:42:23 — docs: update docstring example in simulator
