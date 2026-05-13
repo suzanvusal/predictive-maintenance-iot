@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 14:19:31 — chore: add logging to mahalanobis
 
 # 15:39:09 — test: add assertion for return type in mahalanobis
+
+# 15:42:23 — refactor: rename variable for clarity in mahalanobis
