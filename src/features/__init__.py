@@ -7,3 +7,5 @@
 # 14:10:39 — perf: add caching in __init__
 
 # 15:10:00 — chore: add logging to __init__
+
+# 15:42:23 — fix: add missing type hint in __init__
