@@ -21,3 +21,5 @@
 # 14:16:32 — test: add assertion for return type in __init__
 
 # 14:19:31 — docs: update docstring example in __init__
+
+# 15:42:23 — perf: add caching in __init__
