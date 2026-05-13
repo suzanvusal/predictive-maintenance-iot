@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 14:50:43 — refactor: rename variable for clarity in feature_schema
 
 # 15:39:09 — fix: correct off-by-one in feature_schema
+
+# 15:42:23 — test: add assertion for return type in feature_schema
