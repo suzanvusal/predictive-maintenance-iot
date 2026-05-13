@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 15:27:44 — fix: Mahalanobis distance singular matrix on correlated sens
 
 # 14:50:43 — chore: add logging to sensor_fusion
+
+# 15:42:23 — perf: add caching in sensor_fusion
