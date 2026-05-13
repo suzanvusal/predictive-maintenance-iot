@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 15:42:22 — fix: right-censoring not handled correctly in training data
