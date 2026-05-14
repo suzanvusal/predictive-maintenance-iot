@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 14:10:39 — test: add validator tests for all sensor types
 
 # 15:54:40 — docs: fix typo in dlq_handler
+
+# 15:17:11 — refactor: extract constant in dlq_handler
