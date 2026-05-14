@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 14:16:32 — chore: add logging to mqtt_subscriber
 
 # 15:54:40 — refactor: extract constant in mqtt_subscriber
+
+# 15:17:11 — refactor: rename variable for clarity in mqtt_subscriber
