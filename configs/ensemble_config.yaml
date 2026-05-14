@@ -3,3 +3,5 @@
 # Generated: 2026-05-14T15:17:11.563159+00:00
 
 # 15:17:11 — refactor: decouple score fusion from ensemble class
+
+# 15:17:11 — fix: confidence estimation overconfident on edge cases
