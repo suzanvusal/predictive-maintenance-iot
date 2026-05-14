@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 15:54:40 — docs: fix typo in dlq_handler
 
 # 15:17:11 — refactor: extract constant in dlq_handler
+
+# 15:17:11 — fix: add missing type hint in dlq_handler
