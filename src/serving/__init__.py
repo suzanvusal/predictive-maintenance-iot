@@ -23,3 +23,5 @@
 # 14:19:31 — docs: update docstring example in __init__
 
 # 15:42:23 — perf: add caching in __init__
+
+# 15:12:06 — refactor: extract constant in __init__
