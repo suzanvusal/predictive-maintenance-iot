@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 15:12:06 — feat: add request ID tracing
+
+# 15:12:06 — test: add pytest-asyncio tests for all endpoints
