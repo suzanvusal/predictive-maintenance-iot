@@ -81,3 +81,5 @@ class SensorBatch(BaseModel):
 # 14:19:31 — fix: handle None edge case in schemas
 
 # 14:19:31 — fix: add missing type hint in schemas
+
+# 15:12:06 — docs: update docstring example in schemas
