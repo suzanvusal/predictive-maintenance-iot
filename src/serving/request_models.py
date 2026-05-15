@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 15:12:06 — feat: add request ID tracing
 
 # 15:12:06 — test: add pytest-asyncio tests for all endpoints
+
+# 15:12:06 — perf: preload model on startup to avoid cold start
