@@ -11,3 +11,5 @@
 # 14:19:31 — refactor: rename variable for clarity in __init__
 
 # 15:42:23 — fix: add missing type hint in __init__
+
+# 14:21:31 — docs: add module docstring to __init__
