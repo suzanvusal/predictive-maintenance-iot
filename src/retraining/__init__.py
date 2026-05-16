@@ -15,3 +15,5 @@
 # 14:50:43 — test: add assertion for return type in __init__
 
 # 14:50:43 — fix: add missing type hint in __init__
+
+# 14:21:31 — refactor: extract constant in __init__
