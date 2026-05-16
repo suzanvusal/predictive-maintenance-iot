@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 14:21:31 — feat: implement missed failure alert (predicted safe, actual
+
+# 14:21:31 — perf: batch prediction log writes every 500ms
