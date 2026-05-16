@@ -74,3 +74,5 @@ def test_sensor_batch_count():
 # 14:50:43 — test: add assertion for return type in test_schemas
 
 # 15:42:23 — chore: add logging to test_schemas
+
+# 14:21:31 — perf: add caching in test_schemas
