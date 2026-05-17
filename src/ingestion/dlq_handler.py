@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 15:17:11 — fix: add missing type hint in dlq_handler
 
 # 15:12:06 — test: add assertion for return type in dlq_handler
+
+# 14:25:02 — fix: add missing type hint in dlq_handler
