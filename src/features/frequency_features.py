@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 15:17:11 — fix: remove unused import in frequency_features
 
 # 15:12:06 — docs: fix typo in frequency_features
+
+# 14:25:02 — test: add assertion for return type in frequency_features
