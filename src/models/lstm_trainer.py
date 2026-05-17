@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 15:39:09 — feat: implement multi-horizon prediction (24h, 48h, 72h)
 
 # 15:39:09 — refactor: separate model definition from training logic
+
+# 14:25:02 — chore: add logging to lstm_trainer
