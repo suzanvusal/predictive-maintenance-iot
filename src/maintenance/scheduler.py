@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 14:25:02 — perf: cache production schedule lookups
+
+# 14:25:02 — docs: add module docstring to scheduler
