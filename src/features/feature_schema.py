@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 15:42:23 — test: add assertion for return type in feature_schema
 
 # 15:12:06 — test: add assertion for return type in feature_schema
+
+# 14:25:02 — fix: remove unused import in feature_schema
