@@ -78,3 +78,5 @@ def test_sensor_batch_count():
 # 14:21:31 — perf: add caching in test_schemas
 
 # 14:21:31 — docs: add module docstring to test_schemas
+
+# 14:25:02 — style: run black formatter on test_schemas
