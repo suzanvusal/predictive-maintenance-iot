@@ -116,3 +116,5 @@ class WorkOrderManager:
 # 14:25:02 — feat: implement work order SLA tracking
 
 # 14:25:02 — feat: add work order completion feedback loop
+
+# 14:25:02 — fix: priority scorer not considering production criticality
