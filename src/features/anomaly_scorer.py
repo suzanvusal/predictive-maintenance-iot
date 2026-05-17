@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 15:39:09 — chore: add logging to anomaly_scorer
 
 # 14:21:31 — chore: add logging to anomaly_scorer
+
+# 14:25:02 — style: run black formatter on anomaly_scorer
