@@ -83,3 +83,5 @@ class SensorBatch(BaseModel):
 # 14:19:31 — fix: add missing type hint in schemas
 
 # 15:12:06 — docs: update docstring example in schemas
+
+# 14:25:02 — refactor: rename variable for clarity in schemas
