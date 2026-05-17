@@ -112,3 +112,5 @@ class WorkOrderManager:
             "completed": sum(1 for wo in orders if wo.status == WorkOrderStatus.COMPLETED),
             "emergency": sum(1 for wo in orders if wo.priority == WorkOrderPriority.EMERGENCY),
         }
+
+# 14:25:02 — feat: implement work order SLA tracking
