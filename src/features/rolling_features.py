@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 14:50:43 — refactor: rename variable for clarity in rolling_features
 
 # 14:19:31 — test: add assertion for return type in rolling_features
+
+# 16:21:49 — chore: add logging to rolling_features
