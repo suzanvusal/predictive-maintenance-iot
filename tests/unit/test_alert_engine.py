@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 16:21:49 — feat: add escalation: unresolved CRITICAL after 30min → page
