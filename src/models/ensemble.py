@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 15:17:11 — perf: parallelise model inference across ensemble
 
 # 15:12:06 — docs: add module docstring to ensemble
+
+# 16:21:49 — perf: add caching in ensemble
