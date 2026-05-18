@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 14:19:31 — test: add assertion for return type in rolling_features
 
 # 16:21:49 — chore: add logging to rolling_features
+
+# 16:21:49 — fix: correct off-by-one in rolling_features
