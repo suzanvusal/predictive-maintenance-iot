@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 16:21:49 — feat: add escalation: unresolved CRITICAL after 30min → page
+
+# 16:21:49 — feat: implement notification router: Slack, email, PagerDuty
