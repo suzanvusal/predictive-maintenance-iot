@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 15:39:09 — fix: remove unused import in validator
 
 # 15:42:23 — chore: add logging to validator
+
+# 16:21:49 — test: add assertion for return type in validator
