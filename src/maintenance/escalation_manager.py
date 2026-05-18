@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 16:21:49 — refactor: move alert rules to YAML config
+
+# 16:21:49 — fix: escalation timer not cancelling on alert resolution
