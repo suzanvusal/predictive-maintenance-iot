@@ -3,3 +3,5 @@
   "file": "infra/grafana/dashboards/fleet_health.json",
   "title": "Grafana maintenance dashboards"
 }
+
+# 16:18:34 — fix: fleet heatmap not updating in real-time
