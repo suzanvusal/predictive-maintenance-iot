@@ -7,3 +7,5 @@
 # 15:26:39 — refactor: extract constant in __init__
 
 # 14:19:31 — fix: remove unused import in __init__
+
+# 16:18:35 — test: add assertion for return type in __init__
