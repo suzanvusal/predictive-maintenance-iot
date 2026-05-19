@@ -5,3 +5,5 @@
 }
 
 # 16:18:34 — infra: add dashboard provisioning config
+
+# 16:18:34 — refactor: extract repeated JSON to Grafana template
