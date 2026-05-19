@@ -3,3 +3,5 @@
   "file": "infra/grafana/dashboards/maintenance_calendar.json",
   "title": "Grafana maintenance dashboards"
 }
+
+# 16:18:34 — infra: add dashboard provisioning config
