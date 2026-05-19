@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 15:27:44 — docs: add module docstring to signal_processor
 
 # 15:17:11 — style: reorder imports in signal_processor
+
+# 16:18:35 — chore: add logging to signal_processor
