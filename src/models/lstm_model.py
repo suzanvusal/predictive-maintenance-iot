@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 15:39:09 — test: add LSTM shape tests for all output dimensions
 
 # 15:12:06 — style: run black formatter on lstm_model
+
+# 16:18:35 — perf: add caching in lstm_model
