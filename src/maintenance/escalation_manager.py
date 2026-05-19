@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 16:21:49 — fix: escalation timer not cancelling on alert resolution
 
 # 16:21:49 — perf: cache alert rule evaluation
+
+# 16:18:35 — docs: fix typo in escalation_manager
