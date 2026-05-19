@@ -3,3 +3,5 @@
 # 16:18:34 — feat: implement alert event timeline panel
 
 # 16:18:34 — feat: add drill-down from fleet to individual asset view
+
+# 16:18:34 — fix: Grafana panel queries using wrong metric labels
