@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 16:21:49 — test: add alert engine tests for all threshold combinations
 
 # 16:21:49 — docs: fix typo in alert_engine
+
+# 16:25:17 — docs: update docstring example in alert_engine
