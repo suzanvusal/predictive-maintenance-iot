@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 14:21:31 — fix: outcome recorder failing on duplicate failure reports
+
+# 16:25:17 — test: add assertion for return type in outcome_recorder
