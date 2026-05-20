@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 15:27:44 — fix: correct off-by-one in test_rolling_features
 
 # 15:42:23 — style: run black formatter on test_rolling_features
+
+# 16:25:17 — refactor: rename variable for clarity in test_rolling_featur
