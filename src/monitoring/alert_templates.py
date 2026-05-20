@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 16:25:17 — feat: add alert acknowledgment tracking in Redis
 
 # 16:25:17 — docs: add critical failure response runbook
+
+# 16:25:17 — fix: Slack message truncated for long asset names
