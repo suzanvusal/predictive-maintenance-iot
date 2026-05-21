@@ -82,3 +82,5 @@ def test_sensor_batch_count():
 # 14:25:02 — style: run black formatter on test_schemas
 
 # 16:25:17 — chore: day 21 maintenance sweep
+
+# 16:15:26 — fix: correct off-by-one in test_schemas
