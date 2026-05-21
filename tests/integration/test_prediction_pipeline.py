@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 16:15:26 — ci: add integration test step to CI pipeline
 
 # 16:15:26 — ci: run integration tests only on main branch
+
+# 16:15:26 — docs: add integration test guide
