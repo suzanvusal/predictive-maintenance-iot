@@ -122,3 +122,5 @@ class WorkOrderManager:
 # 14:25:02 — docs: update docstring example in work_order
 
 # 16:25:17 — fix: remove unused import in work_order
+
+# 16:15:27 — test: add assertion for return type in work_order
