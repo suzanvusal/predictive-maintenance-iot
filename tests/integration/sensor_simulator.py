@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 16:15:26 — feat: add sensor fault injection for testing
+
+# 16:15:26 — refactor: extract fixtures to conftest.py
