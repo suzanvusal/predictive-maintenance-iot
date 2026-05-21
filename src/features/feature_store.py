@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 14:16:32 — perf: add caching in feature_store
 
 # 14:19:31 — docs: fix typo in feature_store
+
+# 16:15:27 — chore: add logging to feature_store
