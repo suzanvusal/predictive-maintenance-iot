@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 15:54:40 — perf: enable parallel tree building with n_jobs=-1
 
 # 16:21:49 — docs: fix typo in anomaly_model
+
+# 16:15:26 — fix: correct off-by-one in anomaly_model
