@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 16:15:26 — fix: integration test not cleaning up Redis feature store
