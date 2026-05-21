@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 16:15:26 — ci: run integration tests only on main branch
 
 # 16:15:26 — docs: add integration test guide
+
+# 16:15:27 — fix: remove unused import in test_prediction_pipeline
