@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 15:47:25 — fix: Evidently failing on FFT features with zero variance
