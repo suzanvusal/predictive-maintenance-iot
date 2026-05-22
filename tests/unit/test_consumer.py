@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 14:16:32 — test: add assertion for return type in test_consumer
 
 # 15:39:09 — fix: correct off-by-one in test_consumer
+
+# 15:47:25 — refactor: extract constant in test_consumer
