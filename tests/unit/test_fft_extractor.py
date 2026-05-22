@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 15:39:09 — fix: correct off-by-one in test_fft_extractor
 
 # 15:39:09 — docs: update docstring example in test_fft_extractor
+
+# 15:47:25 — fix: handle None edge case in test_fft_extractor
