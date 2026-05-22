@@ -19,3 +19,5 @@
 # 14:21:31 — refactor: extract constant in __init__
 
 # 16:25:17 — fix: handle None edge case in __init__
+
+# 15:47:25 — fix: correct off-by-one in __init__
