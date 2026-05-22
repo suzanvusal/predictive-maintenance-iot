@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 15:47:25 — test: add drift detection test with synthetic sensor degrada
 
 # 15:47:25 — refactor: parameterise drift thresholds in config
+
+# 15:47:25 — fix: correct off-by-one in reference_builder
