@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 15:47:25 — feat: add drift severity classification: none/warning/critic
+
+# 15:47:25 — test: add drift detection test with synthetic sensor degrada
