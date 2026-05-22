@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 15:47:25 — feat: save drift reports as HTML to S3
+
+# 15:47:25 — perf: run drift reports in parallel per sensor type
