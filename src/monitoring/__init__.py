@@ -11,3 +11,5 @@
 # 15:09:53 — docs: update docstring example in __init__
 
 # 14:09:55 — fix: add missing type hint in __init__
+
+# 15:47:25 — chore: add logging to __init__
