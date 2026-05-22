@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 15:47:25 — feat: implement drift metric emission to Prometheus
+
+# 15:47:25 — perf: add caching in test_drift_detector
