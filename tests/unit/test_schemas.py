@@ -84,3 +84,5 @@ def test_sensor_batch_count():
 # 16:25:17 — chore: day 21 maintenance sweep
 
 # 16:15:26 — fix: correct off-by-one in test_schemas
+
+# 14:28:01 — docs: fix typo in test_schemas
