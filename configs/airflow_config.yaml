@@ -1,3 +1,5 @@
 # configs/airflow_config.yaml
 # Day 24: Airflow retraining DAG
 # Generated: 2026-05-23T14:28:01.092545+00:00
+
+# 14:28:01 — ci: add Airflow DAG import validation
