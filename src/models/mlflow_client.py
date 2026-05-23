@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 14:19:31 — fix: SMOTE failing with very few positive failure samples
 
 # 15:54:40 — refactor: rename variable for clarity in mlflow_client
+
+# 14:28:01 — fix: handle None edge case in mlflow_client
