@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 14:21:31 — test: add prediction logger completeness tests
+
+# 14:28:01 — test: add assertion for return type in prediction_logger
