@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 14:28:01 — chore: add airflow db upgrade to startup script
