@@ -1,3 +1,5 @@
 # infra/airflow/docker-compose.airflow.yml
 # Day 24: Airflow retraining DAG
 # Generated: 2026-05-23T14:28:01.057459+00:00
+
+# 14:28:01 — fix: Airflow FERNET_KEY not set causing startup failure
