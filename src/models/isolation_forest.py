@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 15:54:40 — test: add Isolation Forest tests with synthetic fault patter
 
 # 15:12:06 — style: reorder imports in isolation_forest
+
+# 14:28:01 — perf: add caching in isolation_forest
