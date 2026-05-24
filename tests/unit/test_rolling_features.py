@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 15:42:23 — style: run black formatter on test_rolling_features
 
 # 16:25:17 — refactor: rename variable for clarity in test_rolling_featur
+
+# 14:23:13 — docs: add module docstring to test_rolling_features
