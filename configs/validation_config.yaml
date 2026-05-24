@@ -5,3 +5,5 @@
 # 14:23:13 — feat: implement automatic rollback on missed failure spike
 
 # 14:23:13 — feat: add automated MLflow stage promotion on validation pas
+
+# 14:23:13 — fix: canary rollback not switching model pointer atomically
