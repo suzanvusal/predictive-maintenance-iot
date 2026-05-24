@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 14:25:02 — test: add assertion for return type in frequency_features
 
 # 16:25:17 — chore: add logging to frequency_features
+
+# 14:23:13 — docs: update docstring example in frequency_features
