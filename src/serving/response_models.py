@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 15:12:06 — refactor: separate prediction logic from route handlers
 
 # 15:12:06 — chore: day 16 maintenance sweep
+
+# 14:23:13 — test: add assertion for return type in response_models
