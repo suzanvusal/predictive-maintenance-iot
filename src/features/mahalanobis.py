@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 14:21:31 — refactor: rename variable for clarity in mahalanobis
 
 # 14:25:02 — chore: day 18 maintenance sweep
+
+# 15:49:26 — fix: handle None edge case in mahalanobis
