@@ -33,3 +33,5 @@ logger = logging.getLogger(__name__)
 # 16:21:49 — test: add assertion for return type in mqtt_subscriber
 
 # 15:49:26 — fix: remove unused import in mqtt_subscriber
+
+# 15:49:26 — perf: add caching in mqtt_subscriber
