@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 15:49:26 — perf: optimise feature retrieval with Redis pipeline
+
+# 15:49:26 — docs: add performance benchmark results
