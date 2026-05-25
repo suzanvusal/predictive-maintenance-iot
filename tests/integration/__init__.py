@@ -12,3 +12,5 @@
 # 14:16:32 — fix: remove unused import in __init__
 
 # 14:21:31 — chore: day 17 maintenance sweep
+
+# 15:49:26 — perf: add caching in __init__
