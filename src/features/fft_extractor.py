@@ -126,3 +126,5 @@ class FFTFeatureExtractor:
 # 16:21:49 — docs: add module docstring to fft_extractor
 
 # 14:23:13 — perf: add caching in fft_extractor
+
+# 15:49:26 — fix: handle None edge case in fft_extractor
