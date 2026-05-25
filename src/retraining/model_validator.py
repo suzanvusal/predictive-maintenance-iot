@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 14:23:13 — refactor: decouple validation from MLflow registration
 
 # 14:23:13 — docs: add model governance policy
+
+# 15:49:26 — chore: add logging to model_validator
