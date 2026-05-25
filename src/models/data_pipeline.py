@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 14:19:31 — refactor: separate label generation from feature extraction
 
 # 15:39:09 — perf: add caching in data_pipeline
+
+# 15:49:26 — docs: update docstring example in data_pipeline
