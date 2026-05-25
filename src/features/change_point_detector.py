@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 15:42:23 — refactor: extract constant in change_point_detector
 
 # 14:25:02 — perf: add caching in change_point_detector
+
+# 15:49:26 — docs: update docstring example in change_point_detector
