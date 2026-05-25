@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 15:49:26 — refactor: switch sync DB calls to async
+
+# 15:49:26 — fix: Kafka consumer lag under burst sensor load
