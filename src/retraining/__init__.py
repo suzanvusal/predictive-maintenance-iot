@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 14:28:01 — feat: add LSTM retraining task
 
 # 14:28:01 — fix: CeleryExecutor worker not detecting DAG changes
+
+# 16:41:52 — docs: add module docstring to __init__
