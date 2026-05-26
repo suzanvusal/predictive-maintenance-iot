@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 15:47:25 — perf: add caching in test_drift_detector
 
 # 14:23:13 — docs: add module docstring to test_drift_detector
+
+# 16:41:52 — docs: update docstring example in test_drift_detector
