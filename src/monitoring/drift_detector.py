@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 15:47:25 — perf: run drift reports in parallel per sensor type
 
 # 14:28:01 — chore: day 24 maintenance sweep
+
+# 16:41:52 — refactor: extract constant in drift_detector
