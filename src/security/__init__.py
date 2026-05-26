@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 16:41:52 — feat: implement secure sensor data transmission with TLS
+
+# 16:41:52 — fix: rate limiter not applying to batch endpoints
