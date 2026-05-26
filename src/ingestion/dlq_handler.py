@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 14:25:02 — fix: add missing type hint in dlq_handler
 
 # 14:28:01 — perf: add caching in dlq_handler
+
+# 16:41:52 — fix: correct off-by-one in dlq_handler
