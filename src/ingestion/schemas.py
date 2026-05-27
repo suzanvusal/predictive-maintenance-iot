@@ -85,3 +85,5 @@ class SensorBatch(BaseModel):
 # 15:12:06 — docs: update docstring example in schemas
 
 # 14:25:02 — refactor: rename variable for clarity in schemas
+
+# 16:36:15 — style: run black formatter on schemas
