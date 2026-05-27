@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 16:25:17 — docs: update docstring example in lstm_model
 
 # 16:41:52 — fix: remove unused import in lstm_model
+
+# 16:36:15 — test: add assertion for return type in lstm_model
