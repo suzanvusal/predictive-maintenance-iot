@@ -86,3 +86,5 @@ def test_sensor_batch_count():
 # 16:15:26 — fix: correct off-by-one in test_schemas
 
 # 14:28:01 — docs: fix typo in test_schemas
+
+# 16:36:15 — test: add assertion for return type in test_schemas
