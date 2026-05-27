@@ -127,3 +127,5 @@ def machine_stream(
 # 15:17:11 — refactor: rename variable for clarity in simulator
 
 # 16:18:35 — docs: update docstring example in simulator
+
+# 16:36:15 — refactor: extract constant in simulator
