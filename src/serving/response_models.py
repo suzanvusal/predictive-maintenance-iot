@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 14:23:13 — test: add assertion for return type in response_models
 
 # 16:36:15 — style: reorder imports in response_models
+
+# 16:36:15 — chore: add logging to response_models
