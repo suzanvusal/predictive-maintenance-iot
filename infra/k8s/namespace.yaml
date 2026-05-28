@@ -1,3 +1,5 @@
 # infra/k8s/namespace.yaml
 # Day 29: Kubernetes deployment manifests
 # Generated: 2026-05-28T16:53:00.619257+00:00
+
+# 16:53:00 — fix: Network Policy blocking MQTT broker connectivity
