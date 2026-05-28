@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 16:36:15 — ci: add coverage report to Codecov
 
 # 16:36:15 — fix: flaky FFT test due to floating point precision
+
+# 16:53:00 — docs: update docstring example in test_fft_extractor
