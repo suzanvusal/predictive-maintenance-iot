@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 16:41:52 — fix: remove unused import in lstm_model
 
 # 16:36:15 — test: add assertion for return type in lstm_model
+
+# 16:53:00 — chore: add logging to lstm_model
