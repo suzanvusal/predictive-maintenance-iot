@@ -1,3 +1,5 @@
 # infra/k8s/ingestion-deployment.yaml
 # Day 29: Kubernetes deployment manifests
 # Generated: 2026-05-28T16:53:00.639453+00:00
+
+# 16:53:00 — infra: add PVC for MLflow artifact storage
