@@ -5,3 +5,5 @@
 # 16:53:00 — infra: add Network Policies for OT/IT boundary enforcement
 
 # 16:53:00 — infra: add ConfigMap for environment configuration
+
+# 16:53:00 — infra: add Ingress with TLS termination
