@@ -29,3 +29,5 @@
 # 14:25:02 — docs: update docstring example in __init__
 
 # 14:28:01 — fix: correct off-by-one in __init__
+
+# 16:53:00 — perf: add caching in __init__
