@@ -3,3 +3,5 @@
 # Generated: 2026-05-28T16:53:00.631085+00:00
 
 # 16:53:00 — infra: add Network Policies for OT/IT boundary enforcement
+
+# 16:53:00 — infra: add ConfigMap for environment configuration
