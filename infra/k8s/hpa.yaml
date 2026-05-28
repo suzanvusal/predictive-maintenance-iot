@@ -1,3 +1,5 @@
 # infra/k8s/hpa.yaml
 # Day 29: Kubernetes deployment manifests
 # Generated: 2026-05-28T16:53:00.647735+00:00
+
+# 16:53:00 — refactor: extract K8s labels to kustomize base
