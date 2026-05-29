@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 16:21:49 — test: add assertion for return type in validator
 
 # 16:41:52 — fix: add missing type hint in validator
+
+# 16:41:44 — test: add assertion for return type in validator
