@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 15:42:22 — fix: right-censoring not handled correctly in training data
+
+# 16:41:44 — chore: add logging to test_survival_model
