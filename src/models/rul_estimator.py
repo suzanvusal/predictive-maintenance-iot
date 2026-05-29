@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 14:21:31 — test: add assertion for return type in rul_estimator
 
 # 14:23:13 — style: reorder imports in rul_estimator
+
+# 16:41:44 — chore: add logging to rul_estimator
