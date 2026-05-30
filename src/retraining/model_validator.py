@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 14:23:13 — docs: add model governance policy
 
 # 15:49:26 — chore: add logging to model_validator
+
+# 14:27:40 — refactor: extract constant in model_validator
