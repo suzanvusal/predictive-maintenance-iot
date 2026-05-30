@@ -16,3 +16,5 @@ __version__ = "0.1.0"
 # 16:41:44 — fix: handle None edge case in __init__
 
 # 14:27:40 — refactor: extract constant in __init__
+
+# 14:27:40 — test: add assertion for return type in __init__
