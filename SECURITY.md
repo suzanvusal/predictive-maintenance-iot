@@ -9,3 +9,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 14:27:40 — docs: add predictive maintenance ROI calculator to README
 
 # 14:27:40 — docs: fix broken links in README
+
+# 14:27:40 — fix: env variable names inconsistent across services
