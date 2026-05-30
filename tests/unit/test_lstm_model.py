@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 14:23:13 — chore: add logging to test_lstm_model
+
+# 14:27:40 — refactor: extract constant in test_lstm_model
