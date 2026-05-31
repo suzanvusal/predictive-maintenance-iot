@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 16:36:15 — test: add assertion for return type in lstm_model
 
 # 16:53:00 — chore: add logging to lstm_model
+
+# 14:43:17 — fix: handle None edge case in lstm_model
