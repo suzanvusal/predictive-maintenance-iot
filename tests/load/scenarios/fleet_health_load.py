@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 15:49:26 — fix: Kafka consumer lag under burst sensor load
 
 # 14:27:40 — chore: day 30 maintenance sweep
+
+# 14:43:17 — refactor: extract constant in fleet_health_load
