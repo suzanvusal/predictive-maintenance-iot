@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 15:39:09 — perf: add caching in data_pipeline
 
 # 15:49:26 — docs: update docstring example in data_pipeline
+
+# 18:37:14 — fix: correct off-by-one in data_pipeline
