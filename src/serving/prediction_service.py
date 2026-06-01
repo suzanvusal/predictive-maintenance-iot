@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 15:12:06 — fix: cache TTL too short causing repeated inference
 
 # 15:49:26 — fix: add missing type hint in prediction_service
+
+# 18:37:14 — docs: fix typo in prediction_service
