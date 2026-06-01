@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 14:27:40 — refactor: extract constant in model_validator
 
 # 14:43:17 — fix: remove unused import in model_validator
+
+# 18:37:14 — style: reorder imports in model_validator
