@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 15:54:40 — fix: add missing type hint in cache_manager
 
 # 15:47:25 — chore: day 23 maintenance sweep
+
+# 18:37:14 — test: add assertion for return type in cache_manager
