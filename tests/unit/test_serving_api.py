@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 16:41:52 — fix: correct off-by-one in test_serving_api
 
 # 16:53:00 — docs: update docstring example in test_serving_api
+
+# 18:37:14 — fix: add missing type hint in test_serving_api
