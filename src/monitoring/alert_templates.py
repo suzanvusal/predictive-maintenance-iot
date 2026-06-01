@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 16:25:17 — fix: Slack message truncated for long asset names
 
 # 16:25:17 — docs: add on-call guide to docs/alerting.md
+
+# 18:37:14 — docs: update docstring example in alert_templates
