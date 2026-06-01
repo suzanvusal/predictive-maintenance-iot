@@ -73,7 +73,3 @@ curl -X POST http://localhost:8000/assets/predict \
 
 ## License
 MIT
-
-# 14:43:16 — docs: add CHANGELOG for v1.0.0
-
-# 14:43:17 — ci: add end-to-end smoke test to release pipeline
