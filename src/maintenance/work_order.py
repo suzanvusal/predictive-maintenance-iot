@@ -126,3 +126,5 @@ class WorkOrderManager:
 # 16:15:27 — test: add assertion for return type in work_order
 
 # 14:23:13 — fix: remove unused import in work_order
+
+# 17:21:35 — perf: add caching in work_order
