@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 16:53:00 — style: run black formatter on test_isolation_forest
 
 # 14:27:40 — chore: day 30 maintenance sweep
+
+# 17:21:35 — fix: handle None edge case in test_isolation_forest
