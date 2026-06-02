@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 15:49:26 — fix: add missing type hint in prediction_service
 
 # 18:37:14 — docs: fix typo in prediction_service
+
+# 17:21:35 — chore: add logging to prediction_service
