@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 16:36:15 — test: run mutmut mutation testing and fix surviving mutants
 
 # 16:41:44 — fix: add missing type hint in test_rolling_features
+
+# 17:21:35 — chore: add logging to test_rolling_features
