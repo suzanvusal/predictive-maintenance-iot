@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 16:53:00 — chore: add logging to lstm_model
 
 # 14:43:17 — fix: handle None edge case in lstm_model
+
+# 17:21:35 — chore: add logging to lstm_model
