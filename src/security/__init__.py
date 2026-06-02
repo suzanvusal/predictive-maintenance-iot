@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 16:41:52 — fix: rate limiter not applying to batch endpoints
 
 # 16:41:52 — docs: add security hardening checklist
+
+# 17:21:35 — docs: fix typo in __init__
