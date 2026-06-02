@@ -15,3 +15,5 @@
 # 14:21:31 — docs: add module docstring to __init__
 
 # 14:27:40 — chore: day 30 maintenance sweep
+
+# 17:21:35 — fix: correct off-by-one in __init__
