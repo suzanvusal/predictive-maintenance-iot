@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 14:50:43 — refactor: rename variable for clarity in consumer
 
 # 16:41:52 — fix: add missing type hint in consumer
+
+# 17:21:35 — fix: add missing type hint in consumer
