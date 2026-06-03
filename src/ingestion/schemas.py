@@ -87,3 +87,5 @@ class SensorBatch(BaseModel):
 # 14:25:02 — refactor: rename variable for clarity in schemas
 
 # 16:36:15 — style: run black formatter on schemas
+
+# 17:59:45 — refactor: rename variable for clarity in schemas
