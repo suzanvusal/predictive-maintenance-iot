@@ -73,3 +73,5 @@ curl -X POST http://localhost:8000/assets/predict \
 
 ## License
 MIT
+
+# 17:59:45 — docs: fix broken links in README
