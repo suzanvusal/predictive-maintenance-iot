@@ -73,5 +73,3 @@ curl -X POST http://localhost:8000/assets/predict \
 
 ## License
 MIT
-
-# 17:21:35 — refactor: remove all TODO comments
