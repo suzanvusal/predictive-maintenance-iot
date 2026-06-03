@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 16:41:52 — test: add assertion for return type in test_feature_store
 
 # 14:27:40 — chore: day 30 maintenance sweep
+
+# 17:59:45 — perf: add caching in test_feature_store
