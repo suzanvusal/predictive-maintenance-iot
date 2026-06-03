@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 16:53:00 — docs: fix typo in kafka_producer
 
 # 16:53:00 — docs: update docstring example in kafka_producer
+
+# 17:59:45 — fix: remove unused import in kafka_producer
