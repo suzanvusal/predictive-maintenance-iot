@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 16:25:17 — chore: add logging to frequency_features
 
 # 14:23:13 — docs: update docstring example in frequency_features
+
+# 17:59:45 — docs: add module docstring to frequency_features
