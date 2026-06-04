@@ -13,3 +13,5 @@
 # 16:15:26 — fix: handle None edge case in __init__
 
 # 16:41:52 — docs: update docstring example in __init__
+
+# 16:19:29 — fix: handle None edge case in __init__
