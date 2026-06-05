@@ -75,3 +75,5 @@ curl -X POST http://localhost:8000/assets/predict \
 MIT
 
 # 15:52:55 — chore: final dependency audit
+
+# 15:52:55 — docs: fix broken links in README
