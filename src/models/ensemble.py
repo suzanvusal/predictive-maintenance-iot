@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 16:21:49 — perf: add caching in ensemble
 
 # 14:28:01 — perf: add caching in ensemble
+
+# 15:52:55 — docs: update docstring example in ensemble
