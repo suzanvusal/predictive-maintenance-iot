@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 14:23:13 — fix: DeLong test wrong variance formula
 
 # 16:19:29 — fix: correct off-by-one in canary_manager
+
+# 15:52:55 — chore: add logging to canary_manager
