@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 16:18:35 — chore: add logging to signal_processor
 
 # 15:47:25 — fix: remove unused import in signal_processor
+
+# 14:40:50 — fix: add missing type hint in signal_processor
