@@ -37,3 +37,5 @@ logger = logging.getLogger(__name__)
 # 15:49:26 — perf: add caching in mqtt_subscriber
 
 # 17:59:45 — fix: handle None edge case in mqtt_subscriber
+
+# 14:40:50 — refactor: extract constant in mqtt_subscriber
