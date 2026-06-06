@@ -18,3 +18,5 @@
 # 18:37:14 — fix: handle None edge case in __init__
 
 # 14:40:50 — docs: fix typo in __init__
+
+# 14:40:50 — perf: add caching in __init__
