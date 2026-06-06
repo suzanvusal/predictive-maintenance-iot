@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 16:36:15 — fix: flaky FFT test due to floating point precision
 
 # 16:53:00 — docs: update docstring example in test_fft_extractor
+
+# 14:40:50 — style: run black formatter on test_fft_extractor
