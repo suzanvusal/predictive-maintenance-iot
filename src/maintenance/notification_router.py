@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 16:21:49 — feat: add alert audit log to PostgreSQL
+
+# 14:50:57 — fix: handle None edge case in notification_router
