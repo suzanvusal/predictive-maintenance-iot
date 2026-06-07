@@ -15,3 +15,5 @@
 # 16:41:52 — docs: update docstring example in __init__
 
 # 16:19:29 — fix: handle None edge case in __init__
+
+# 14:50:57 — docs: fix typo in __init__
