@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 18:37:14 — fix: add missing type hint in test_full_pipeline
 
 # 15:52:55 — docs: add module docstring to test_full_pipeline
+
+# 14:50:57 — docs: update docstring example in test_full_pipeline
