@@ -79,3 +79,5 @@ MIT
 # 14:50:57 — ci: add end-to-end smoke test to release pipeline
 
 # 14:50:57 — chore: final dependency audit
+
+# 14:50:57 — fix: env variable names inconsistent across services
