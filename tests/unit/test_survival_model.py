@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 15:52:55 — refactor: extract constant in test_survival_model
 
 # 14:50:57 — style: reorder imports in test_survival_model
+
+# 16:47:35 — docs: fix typo in test_survival_model
