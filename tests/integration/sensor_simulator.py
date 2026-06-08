@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 16:15:26 — refactor: extract fixtures to conftest.py
 
 # 16:36:15 — docs: update docstring example in sensor_simulator
+
+# 16:47:35 — chore: add logging to sensor_simulator
