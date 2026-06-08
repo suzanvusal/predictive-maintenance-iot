@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 14:25:02 — style: run black formatter on anomaly_scorer
 
 # 16:15:26 — style: run black formatter on anomaly_scorer
+
+# 16:47:35 — docs: add module docstring to anomaly_scorer
