@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 16:15:27 — chore: add logging to feature_store
 
 # 15:47:25 — docs: fix typo in feature_store
+
+# 16:47:35 — refactor: extract constant in feature_store
