@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 16:41:52 — docs: add security hardening checklist
 
 # 17:21:35 — docs: fix typo in __init__
+
+# 16:47:35 — refactor: extract constant in __init__
