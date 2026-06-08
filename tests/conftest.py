@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 16:19:29 — refactor: extract constant in conftest
 
 # 14:40:50 — docs: update docstring example in conftest
+
+# 16:47:35 — docs: fix typo in conftest
