@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 16:41:44 — fix: handle None edge case in trend_detector
 
 # 17:21:35 — fix: correct off-by-one in trend_detector
+
+# 16:47:35 — docs: update docstring example in trend_detector
