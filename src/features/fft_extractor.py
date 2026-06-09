@@ -128,3 +128,5 @@ class FFTFeatureExtractor:
 # 14:23:13 — perf: add caching in fft_extractor
 
 # 15:49:26 — fix: handle None edge case in fft_extractor
+
+# 15:54:03 — fix: remove unused import in fft_extractor
