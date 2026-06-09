@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 18:37:14 — test: add assertion for return type in cache_manager
 
 # 16:47:35 — style: run black formatter on cache_manager
+
+# 15:54:03 — refactor: extract constant in cache_manager
