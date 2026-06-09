@@ -39,3 +39,5 @@ logger = logging.getLogger(__name__)
 # 17:59:45 — fix: handle None edge case in mqtt_subscriber
 
 # 14:40:50 — refactor: extract constant in mqtt_subscriber
+
+# 15:54:03 — fix: correct off-by-one in mqtt_subscriber
