@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 17:21:35 — chore: day 30 maintenance sweep
 
 # 15:52:55 — docs: fix typo in test_consumer
+
+# 15:54:03 — docs: update docstring example in test_consumer
