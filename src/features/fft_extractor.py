@@ -130,3 +130,5 @@ class FFTFeatureExtractor:
 # 15:49:26 — fix: handle None edge case in fft_extractor
 
 # 15:54:03 — fix: remove unused import in fft_extractor
+
+# 15:54:03 — fix: handle None edge case in fft_extractor
