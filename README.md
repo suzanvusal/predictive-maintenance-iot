@@ -75,3 +75,5 @@ curl -X POST http://localhost:8000/assets/predict \
 MIT
 
 # 15:54:03 — ci: add end-to-end smoke test to release pipeline
+
+# 15:54:03 — docs: fix broken links in README
