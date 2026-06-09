@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 14:25:02 — docs: add module docstring to scheduler
 
 # 15:52:55 — perf: add caching in scheduler
+
+# 15:54:03 — fix: correct off-by-one in scheduler
