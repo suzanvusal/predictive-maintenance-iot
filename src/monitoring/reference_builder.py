@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 15:47:25 — fix: correct off-by-one in reference_builder
 
 # 18:37:14 — style: reorder imports in reference_builder
+
+# 15:54:03 — chore: add logging to reference_builder
