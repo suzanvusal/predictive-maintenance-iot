@@ -31,3 +31,5 @@
 # 14:28:01 — fix: correct off-by-one in __init__
 
 # 16:53:00 — perf: add caching in __init__
+
+# 16:35:01 — docs: update docstring example in __init__
