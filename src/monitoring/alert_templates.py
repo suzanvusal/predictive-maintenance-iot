@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 16:25:17 — docs: add on-call guide to docs/alerting.md
 
 # 18:37:14 — docs: update docstring example in alert_templates
+
+# 16:35:01 — docs: add module docstring to alert_templates
