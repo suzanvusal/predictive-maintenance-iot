@@ -79,3 +79,5 @@ MIT
 # 16:35:01 — docs: add predictive maintenance ROI calculator to README
 
 # 16:35:01 — chore: archive development notebooks
+
+# 16:35:01 — docs: fix broken links in README
