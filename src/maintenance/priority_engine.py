@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 16:18:35 — chore: add logging to priority_engine
 
 # 14:43:17 — chore: add logging to priority_engine
+
+# 16:35:01 — fix: add missing type hint in priority_engine
