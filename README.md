@@ -73,9 +73,3 @@ curl -X POST http://localhost:8000/assets/predict \
 
 ## License
 MIT
-
-# 15:54:03 — ci: add end-to-end smoke test to release pipeline
-
-# 15:54:03 — docs: fix broken links in README
-
-# 15:54:03 — fix: env variable names inconsistent across services
