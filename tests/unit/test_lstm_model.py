@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 14:23:13 — chore: add logging to test_lstm_model
 
 # 14:27:40 — refactor: extract constant in test_lstm_model
+
+# 16:35:01 — fix: handle None edge case in test_lstm_model
