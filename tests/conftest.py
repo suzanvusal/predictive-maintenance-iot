@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 14:40:50 — docs: update docstring example in conftest
 
 # 16:47:35 — docs: fix typo in conftest
+
+# 16:35:01 — fix: correct off-by-one in conftest
