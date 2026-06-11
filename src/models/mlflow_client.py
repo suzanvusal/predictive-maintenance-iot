@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 14:43:17 — docs: update docstring example in mlflow_client
 
 # 17:59:45 — refactor: rename variable for clarity in mlflow_client
+
+# 16:54:01 — style: run black formatter on mlflow_client
