@@ -133,3 +133,5 @@ def machine_stream(
 # 14:50:57 — style: run black formatter on simulator
 
 # 16:54:01 — refactor: rename variable for clarity in simulator
+
+# 16:54:01 — fix: correct off-by-one in simulator
