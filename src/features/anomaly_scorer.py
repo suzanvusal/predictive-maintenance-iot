@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 16:15:26 — style: run black formatter on anomaly_scorer
 
 # 16:47:35 — docs: add module docstring to anomaly_scorer
+
+# 16:54:01 — fix: handle None edge case in anomaly_scorer
