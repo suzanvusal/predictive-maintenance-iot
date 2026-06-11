@@ -15,3 +15,5 @@
 # 15:47:25 — chore: add logging to __init__
 
 # 15:49:26 — docs: fix typo in __init__
+
+# 16:54:01 — perf: add caching in __init__
