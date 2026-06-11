@@ -37,3 +37,5 @@ logger = logging.getLogger(__name__)
 # 14:40:50 — style: run black formatter on kafka_producer
 
 # 15:54:03 — style: run black formatter on kafka_producer
+
+# 16:54:01 — fix: handle None edge case in kafka_producer
