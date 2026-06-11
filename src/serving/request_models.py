@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 16:25:17 — chore: day 21 maintenance sweep
 
 # 15:54:03 — chore: day 30 maintenance sweep
+
+# 16:54:01 — chore: add logging to request_models
