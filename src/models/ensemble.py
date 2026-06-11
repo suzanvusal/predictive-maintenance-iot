@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 15:52:55 — docs: update docstring example in ensemble
 
 # 14:50:57 — docs: update docstring example in ensemble
+
+# 16:54:01 — fix: correct off-by-one in ensemble
