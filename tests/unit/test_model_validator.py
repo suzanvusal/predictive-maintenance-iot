@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 14:50:57 — style: run black formatter on test_model_validator
 
 # 14:50:57 — chore: day 30 maintenance sweep
+
+# 16:54:01 — fix: handle None edge case in test_model_validator
