@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 14:40:50 — fix: add missing type hint in signal_processor
 
 # 14:50:57 — perf: add caching in signal_processor
+
+# 16:16:20 — refactor: extract constant in signal_processor
