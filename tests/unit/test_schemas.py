@@ -90,3 +90,5 @@ def test_sensor_batch_count():
 # 16:36:15 — test: add assertion for return type in test_schemas
 
 # 16:41:44 — chore: day 30 maintenance sweep
+
+# 14:59:19 — docs: add module docstring to test_schemas
