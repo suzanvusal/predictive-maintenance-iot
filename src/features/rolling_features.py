@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 14:27:40 — docs: fix typo in rolling_features
 
 # 14:43:17 — style: run black formatter on rolling_features
+
+# 14:59:19 — docs: update docstring example in rolling_features
