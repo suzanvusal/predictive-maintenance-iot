@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 15:52:55 — docs: fix typo in test_consumer
 
 # 15:54:03 — docs: update docstring example in test_consumer
+
+# 14:59:19 — docs: update docstring example in test_consumer
