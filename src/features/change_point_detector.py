@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 15:49:26 — docs: update docstring example in change_point_detector
 
 # 14:59:19 — fix: correct off-by-one in change_point_detector
+
+# 14:59:19 — docs: update docstring example in change_point_detector
