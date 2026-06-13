@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 16:41:52 — docs: add OT/IT security architecture document
 
 # 16:41:52 — refactor: centralise access control rules
+
+# 14:59:19 — docs: add module docstring to audit_logger
