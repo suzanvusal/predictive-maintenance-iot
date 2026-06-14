@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 15:49:26 — fix: handle None edge case in mahalanobis
 
 # 14:43:17 — test: add assertion for return type in mahalanobis
+
+# 15:07:03 — fix: handle None edge case in mahalanobis
