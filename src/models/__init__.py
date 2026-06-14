@@ -23,3 +23,5 @@
 # 16:35:01 — chore: day 30 maintenance sweep
 
 # 15:07:03 — test: add assertion for return type in __init__
+
+# 15:07:03 — docs: add module docstring to __init__
