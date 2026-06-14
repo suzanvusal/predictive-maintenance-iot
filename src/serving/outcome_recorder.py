@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 16:25:17 — test: add assertion for return type in outcome_recorder
 
 # 14:50:57 — test: add assertion for return type in outcome_recorder
+
+# 15:07:03 — fix: add missing type hint in outcome_recorder
