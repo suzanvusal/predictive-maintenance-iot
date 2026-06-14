@@ -73,3 +73,5 @@ curl -X POST http://localhost:8000/assets/predict \
 
 ## License
 MIT
+
+# 15:07:03 — chore: archive development notebooks
