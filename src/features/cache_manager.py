@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 16:47:35 — style: run black formatter on cache_manager
 
 # 15:54:03 — refactor: extract constant in cache_manager
+
+# 15:07:03 — chore: add logging to cache_manager
