@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 14:27:40 — fix: remove unused import in test_anomaly_scorer
 
 # 16:47:35 — docs: update docstring example in test_anomaly_scorer
+
+# 15:07:03 — docs: fix typo in test_anomaly_scorer
