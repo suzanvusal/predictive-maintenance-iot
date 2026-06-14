@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 16:47:35 — docs: update docstring example in trend_detector
 
 # 15:54:03 — fix: add missing type hint in trend_detector
+
+# 15:07:03 — fix: add missing type hint in trend_detector
