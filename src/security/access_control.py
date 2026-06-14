@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 15:54:03 — style: run black formatter on access_control
 
 # 14:59:19 — refactor: rename variable for clarity in access_control
+
+# 15:07:03 — perf: add caching in access_control
