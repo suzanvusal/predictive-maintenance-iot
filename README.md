@@ -75,3 +75,5 @@ curl -X POST http://localhost:8000/assets/predict \
 MIT
 
 # 15:07:03 — chore: archive development notebooks
+
+# 15:07:03 — fix: env variable names inconsistent across services
