@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 16:53:00 — fix: correct off-by-one in test_drift_detector
 
 # 16:19:29 — fix: remove unused import in test_drift_detector
+
+# 17:52:51 — docs: fix typo in test_drift_detector
