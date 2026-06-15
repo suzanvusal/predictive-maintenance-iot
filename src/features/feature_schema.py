@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 17:59:45 — refactor: rename variable for clarity in feature_schema
 
 # 14:59:19 — fix: correct off-by-one in feature_schema
+
+# 17:52:51 — fix: correct off-by-one in feature_schema
