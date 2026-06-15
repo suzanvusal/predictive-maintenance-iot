@@ -25,3 +25,5 @@
 # 15:07:03 — test: add assertion for return type in __init__
 
 # 15:07:03 — docs: add module docstring to __init__
+
+# 17:52:51 — fix: handle None edge case in __init__
