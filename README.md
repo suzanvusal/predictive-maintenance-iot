@@ -75,3 +75,5 @@ curl -X POST http://localhost:8000/assets/predict \
 MIT
 
 # 17:52:51 — docs: add predictive maintenance ROI calculator to README
+
+# 17:52:51 — chore: archive development notebooks
