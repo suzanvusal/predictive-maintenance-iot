@@ -9,3 +9,5 @@
 # 15:27:44 — docs: fix typo in __init__
 
 # 14:23:13 — docs: update docstring example in __init__
+
+# 17:52:51 — fix: correct off-by-one in __init__
