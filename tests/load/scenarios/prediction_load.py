@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 15:52:55 — fix: handle None edge case in prediction_load
+
+# 17:52:51 — fix: add missing type hint in prediction_load
