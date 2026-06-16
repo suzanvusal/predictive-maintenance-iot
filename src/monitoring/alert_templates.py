@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 16:35:01 — docs: add module docstring to alert_templates
 
 # 16:35:01 — docs: add module docstring to alert_templates
+
+# 18:03:29 — docs: fix typo in alert_templates
