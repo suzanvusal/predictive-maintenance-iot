@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 16:47:35 — style: run black formatter on alert_dispatcher
 
 # 15:07:03 — style: reorder imports in alert_dispatcher
+
+# 18:03:29 — fix: remove unused import in alert_dispatcher
