@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 15:07:03 — fix: handle None edge case in mahalanobis
 
 # 17:52:51 — fix: handle None edge case in mahalanobis
+
+# 18:03:30 — chore: add logging to mahalanobis
