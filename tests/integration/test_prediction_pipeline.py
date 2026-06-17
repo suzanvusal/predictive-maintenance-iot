@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 16:35:01 — refactor: rename variable for clarity in test_prediction_pip
 
 # 16:35:01 — perf: add caching in test_prediction_pipeline
+
+# 16:38:02 — chore: add logging to test_prediction_pipeline
