@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 17:59:45 — style: reorder imports in locustfile
 
 # 16:19:29 — fix: correct off-by-one in locustfile
+
+# 16:38:02 — docs: add module docstring to locustfile
