@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 16:47:35 — docs: fix typo in test_survival_model
 
 # 17:52:51 — style: run black formatter on test_survival_model
+
+# 16:38:02 — docs: add module docstring to test_survival_model
