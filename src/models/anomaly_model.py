@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 15:47:25 — chore: day 23 maintenance sweep
 
 # 15:52:55 — docs: fix typo in anomaly_model
+
+# 16:29:57 — docs: add module docstring to anomaly_model
