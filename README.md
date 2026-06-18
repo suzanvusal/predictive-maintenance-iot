@@ -75,3 +75,5 @@ curl -X POST http://localhost:8000/assets/predict \
 MIT
 
 # 16:29:57 — chore: archive development notebooks
+
+# 16:29:57 — docs: fix broken links in README
