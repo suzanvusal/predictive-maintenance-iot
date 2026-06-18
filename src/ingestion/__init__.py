@@ -11,3 +11,5 @@
 # 14:23:13 — docs: update docstring example in __init__
 
 # 17:52:51 — fix: correct off-by-one in __init__
+
+# 16:29:57 — refactor: rename variable for clarity in __init__
