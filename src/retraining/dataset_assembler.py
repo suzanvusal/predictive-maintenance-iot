@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 14:27:40 — docs: fix typo in dataset_assembler
 
 # 16:19:29 — docs: add module docstring to dataset_assembler
+
+# 16:29:57 — fix: handle None edge case in dataset_assembler
