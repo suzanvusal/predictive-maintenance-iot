@@ -92,3 +92,5 @@ def test_sensor_batch_count():
 # 16:41:44 — chore: day 30 maintenance sweep
 
 # 14:59:19 — docs: add module docstring to test_schemas
+
+# 15:58:16 — perf: add caching in test_schemas
