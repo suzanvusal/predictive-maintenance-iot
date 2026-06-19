@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 17:59:45 — docs: add module docstring to frequency_features
 
 # 14:40:50 — docs: fix typo in frequency_features
+
+# 15:58:16 — fix: add missing type hint in frequency_features
