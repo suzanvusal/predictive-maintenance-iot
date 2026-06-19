@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 15:07:03 — docs: fix typo in test_anomaly_scorer
 
 # 18:03:29 — chore: day 30 maintenance sweep
+
+# 15:58:16 — fix: add missing type hint in test_anomaly_scorer
