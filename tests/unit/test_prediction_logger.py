@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 14:21:31 — fix: prediction_id collision on concurrent requests
 
 # 14:21:31 — refactor: use asyncpg for async PostgreSQL logging
+
+# 15:58:16 — chore: add logging to test_prediction_logger
