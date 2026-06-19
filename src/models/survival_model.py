@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 16:18:35 — docs: add module docstring to survival_model
 
 # 16:16:20 — docs: add module docstring to survival_model
+
+# 15:58:16 — perf: add caching in survival_model
