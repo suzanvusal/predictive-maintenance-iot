@@ -75,3 +75,5 @@ curl -X POST http://localhost:8000/assets/predict \
 MIT
 
 # 15:58:16 — security: add SECURITY.md with vulnerability reporting
+
+# 15:58:16 — chore: tag v1.0.0 release
