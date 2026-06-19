@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 17:21:35 — fix: add missing type hint in consumer
 
 # 16:29:57 — chore: day 30 maintenance sweep
+
+# 15:58:16 — chore: add logging to consumer
