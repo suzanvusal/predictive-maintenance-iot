@@ -35,3 +35,5 @@
 # 16:35:01 — docs: update docstring example in __init__
 
 # 14:59:19 — style: reorder imports in __init__
+
+# 15:58:16 — fix: correct off-by-one in __init__
