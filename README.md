@@ -77,3 +77,5 @@ MIT
 # 15:58:16 — security: add SECURITY.md with vulnerability reporting
 
 # 15:58:16 — chore: tag v1.0.0 release
+
+# 15:58:16 — docs: add predictive maintenance ROI calculator to README
