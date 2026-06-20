@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 14:50:57 — perf: add caching in signal_processor
 
 # 16:16:20 — refactor: extract constant in signal_processor
+
+# 15:02:24 — fix: correct off-by-one in signal_processor
