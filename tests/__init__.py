@@ -18,3 +18,5 @@
 # 16:53:00 — chore: day 29 maintenance sweep
 
 # 16:16:20 — chore: add logging to __init__
+
+# 15:02:24 — fix: handle None edge case in __init__
