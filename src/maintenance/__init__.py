@@ -19,3 +19,5 @@
 # 14:50:57 — docs: fix typo in __init__
 
 # 18:03:30 — test: add assertion for return type in __init__
+
+# 15:02:24 — fix: handle None edge case in __init__
