@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 17:21:35 — chore: add logging to prediction_service
 
 # 15:52:55 — fix: add missing type hint in prediction_service
+
+# 15:02:24 — perf: add caching in prediction_service
