@@ -29,3 +29,5 @@
 # 17:52:51 — fix: handle None edge case in __init__
 
 # 16:29:57 — fix: remove unused import in __init__
+
+# 15:10:17 — fix: handle None edge case in __init__
