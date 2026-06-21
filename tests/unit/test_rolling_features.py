@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 17:21:35 — chore: add logging to test_rolling_features
 
 # 15:54:03 — refactor: rename variable for clarity in test_rolling_featur
+
+# 15:10:17 — fix: correct off-by-one in test_rolling_features
