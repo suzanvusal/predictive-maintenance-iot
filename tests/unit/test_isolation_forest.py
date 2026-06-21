@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 18:03:30 — fix: add missing type hint in test_isolation_forest
 
 # 16:38:02 — docs: fix typo in test_isolation_forest
+
+# 15:10:17 — chore: add logging to test_isolation_forest
