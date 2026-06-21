@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 16:29:57 — chore: day 30 maintenance sweep
 
 # 15:58:16 — chore: add logging to consumer
+
+# 15:10:17 — fix: remove unused import in consumer
