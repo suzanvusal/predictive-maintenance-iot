@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 16:38:02 — chore: add logging to test_prediction_pipeline
 
 # 16:29:57 — style: reorder imports in test_prediction_pipeline
+
+# 15:10:17 — fix: remove unused import in test_prediction_pipeline
