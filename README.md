@@ -77,3 +77,5 @@ MIT
 # 15:10:17 — chore: tag v1.0.0 release
 
 # 15:10:17 — chore: final dependency audit
+
+# 15:10:17 — chore: archive development notebooks
