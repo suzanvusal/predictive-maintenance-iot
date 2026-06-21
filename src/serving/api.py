@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 18:03:29 — refactor: rename variable for clarity in api
 
 # 16:29:57 — fix: correct off-by-one in api
+
+# 15:10:17 — chore: add logging to api
