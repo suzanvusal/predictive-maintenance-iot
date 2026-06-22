@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 16:54:01 — fix: handle None edge case in anomaly_scorer
 
 # 15:10:17 — style: reorder imports in anomaly_scorer
+
+# 17:39:53 — refactor: extract constant in anomaly_scorer
