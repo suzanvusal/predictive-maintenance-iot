@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 16:41:44 — test: add assertion for return type in validator
 
 # 15:58:16 — chore: day 30 maintenance sweep
+
+# 17:39:53 — perf: add caching in validator
