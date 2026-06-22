@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 16:54:01 — fix: handle None edge case in test_model_validator
 
 # 15:02:24 — docs: add module docstring to test_model_validator
+
+# 17:39:53 — fix: add missing type hint in test_model_validator
