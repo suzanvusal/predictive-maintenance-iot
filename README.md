@@ -75,3 +75,5 @@ curl -X POST http://localhost:8000/assets/predict \
 MIT
 
 # 17:39:53 — security: add SECURITY.md with vulnerability reporting
+
+# 17:39:53 — docs: add predictive maintenance ROI calculator to README
