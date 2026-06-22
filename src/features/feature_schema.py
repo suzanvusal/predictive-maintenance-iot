@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 17:52:51 — fix: correct off-by-one in feature_schema
 
 # 17:52:51 — chore: day 30 maintenance sweep
+
+# 17:39:53 — style: run black formatter on feature_schema
