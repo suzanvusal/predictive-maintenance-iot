@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 16:29:57 — style: reorder imports in test_prediction_pipeline
 
 # 15:10:17 — fix: remove unused import in test_prediction_pipeline
+
+# 17:39:53 — test: add assertion for return type in test_prediction_pipel
