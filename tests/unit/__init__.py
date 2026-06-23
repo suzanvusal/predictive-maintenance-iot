@@ -18,3 +18,5 @@
 # 16:41:44 — fix: add missing type hint in __init__
 
 # 16:19:29 — chore: day 30 maintenance sweep
+
+# 15:46:47 — style: run black formatter on __init__
