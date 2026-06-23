@@ -3,9 +3,3 @@
 Day 30: Final polish, README & project completion
 
 Complete README, architecture diagrams, changelog, v1.0.0 release
-
-# 17:39:53 — chore: tag v1.0.0 release
-
-# 17:39:53 — ci: add end-to-end smoke test to release pipeline
-
-# 17:39:53 — chore: final dependency audit
