@@ -73,3 +73,5 @@ curl -X POST http://localhost:8000/assets/predict \
 
 ## License
 MIT
+
+# 15:46:47 — chore: tag v1.0.0 release
