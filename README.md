@@ -79,3 +79,5 @@ MIT
 # 15:46:47 — docs: add predictive maintenance ROI calculator to README
 
 # 15:46:47 — chore: final dependency audit
+
+# 15:46:47 — fix: env variable names inconsistent across services
