@@ -135,3 +135,5 @@ def machine_stream(
 # 16:54:01 — refactor: rename variable for clarity in simulator
 
 # 16:54:01 — fix: correct off-by-one in simulator
+
+# 15:46:47 — fix: add missing type hint in simulator
