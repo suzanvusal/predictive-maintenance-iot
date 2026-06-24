@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 16:29:57 — fix: correct off-by-one in api
 
 # 15:10:17 — chore: add logging to api
+
+# 15:32:26 — perf: add caching in api
