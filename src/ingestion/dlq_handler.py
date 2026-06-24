@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 14:40:50 — refactor: extract constant in dlq_handler
 
 # 16:38:02 — docs: update docstring example in dlq_handler
+
+# 15:32:26 — docs: fix typo in dlq_handler
