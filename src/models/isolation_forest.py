@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 15:49:26 — style: run black formatter on isolation_forest
 
 # 16:36:15 — docs: add module docstring to isolation_forest
+
+# 15:32:26 — docs: update docstring example in isolation_forest
