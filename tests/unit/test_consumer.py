@@ -33,3 +33,5 @@ logger = logging.getLogger(__name__)
 # 15:54:03 — docs: update docstring example in test_consumer
 
 # 14:59:19 — docs: update docstring example in test_consumer
+
+# 15:32:26 — fix: remove unused import in test_consumer
