@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 14:40:50 — style: run black formatter on test_fft_extractor
 
 # 15:10:17 — fix: remove unused import in test_fft_extractor
+
+# 15:32:26 — refactor: extract constant in test_fft_extractor
