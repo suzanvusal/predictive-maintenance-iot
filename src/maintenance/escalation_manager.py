@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 15:46:47 — style: reorder imports in escalation_manager
 
 # 15:46:47 — fix: add missing type hint in escalation_manager
+
+# 15:42:07 — chore: add logging to escalation_manager
