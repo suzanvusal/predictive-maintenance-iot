@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 15:58:16 — chore: add logging to consumer
 
 # 15:10:17 — fix: remove unused import in consumer
+
+# 15:42:07 — fix: correct off-by-one in consumer
