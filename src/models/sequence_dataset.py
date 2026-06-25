@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 15:17:11 — fix: add missing type hint in sequence_dataset
 
 # 16:47:35 — style: reorder imports in sequence_dataset
+
+# 15:42:08 — docs: fix typo in sequence_dataset
