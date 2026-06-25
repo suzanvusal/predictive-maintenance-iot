@@ -35,3 +35,5 @@ logger = logging.getLogger(__name__)
 # 15:02:24 — fix: correct off-by-one in rolling_features
 
 # 15:10:17 — style: reorder imports in rolling_features
+
+# 15:42:07 — chore: day 30 maintenance sweep
