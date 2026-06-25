@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 16:38:02 — docs: add module docstring to test_survival_model
 
 # 15:02:24 — chore: add logging to test_survival_model
+
+# 15:42:08 — docs: fix typo in test_survival_model
