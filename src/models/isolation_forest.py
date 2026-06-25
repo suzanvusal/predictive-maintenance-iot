@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 16:36:15 — docs: add module docstring to isolation_forest
 
 # 15:32:26 — docs: update docstring example in isolation_forest
+
+# 15:42:07 — refactor: rename variable for clarity in isolation_forest
