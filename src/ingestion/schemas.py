@@ -93,3 +93,5 @@ class SensorBatch(BaseModel):
 # 16:16:20 — style: run black formatter on schemas
 
 # 18:03:30 — refactor: extract constant in schemas
+
+# 15:22:33 — chore: add logging to schemas
