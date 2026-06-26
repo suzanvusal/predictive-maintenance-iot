@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 16:38:02 — docs: fix typo in test_isolation_forest
 
 # 15:10:17 — chore: add logging to test_isolation_forest
+
+# 15:22:33 — fix: handle None edge case in test_isolation_forest
