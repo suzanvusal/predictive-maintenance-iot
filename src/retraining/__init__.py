@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 16:35:01 — chore: day 30 maintenance sweep
 
 # 16:54:01 — refactor: extract constant in __init__
+
+# 14:27:57 — test: add assertion for return type in __init__
