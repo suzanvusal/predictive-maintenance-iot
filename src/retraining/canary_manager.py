@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 16:19:29 — fix: correct off-by-one in canary_manager
 
 # 15:52:55 — chore: add logging to canary_manager
+
+# 14:27:57 — docs: fix typo in canary_manager
