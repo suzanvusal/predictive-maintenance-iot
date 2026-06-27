@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 15:02:24 — test: add assertion for return type in conftest
 
 # 15:42:07 — fix: remove unused import in conftest
+
+# 14:27:57 — docs: fix typo in conftest
