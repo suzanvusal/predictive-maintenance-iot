@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 14:59:19 — docs: update docstring example in change_point_detector
 
 # 17:52:51 — chore: day 30 maintenance sweep
+
+# 14:27:57 — perf: add caching in change_point_detector
