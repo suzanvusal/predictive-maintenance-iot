@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 15:02:24 — docs: update docstring example in model_promoter
 
 # 17:39:53 — chore: add logging to model_promoter
+
+# 14:27:57 — chore: add logging to model_promoter
