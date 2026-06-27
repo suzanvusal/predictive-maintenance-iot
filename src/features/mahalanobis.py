@@ -37,3 +37,5 @@ logger = logging.getLogger(__name__)
 # 17:39:53 — fix: remove unused import in mahalanobis
 
 # 15:32:26 — docs: update docstring example in mahalanobis
+
+# 14:27:57 — test: add assertion for return type in mahalanobis
