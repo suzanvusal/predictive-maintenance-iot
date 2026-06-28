@@ -45,3 +45,5 @@ logger = logging.getLogger(__name__)
 # 16:16:20 — style: run black formatter on mqtt_subscriber
 
 # 14:47:25 — style: run black formatter on mqtt_subscriber
+
+# 14:47:25 — perf: add caching in mqtt_subscriber
