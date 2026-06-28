@@ -75,3 +75,5 @@ curl -X POST http://localhost:8000/assets/predict \
 MIT
 
 # 14:47:25 — ci: add end-to-end smoke test to release pipeline
+
+# 14:47:25 — chore: archive development notebooks
