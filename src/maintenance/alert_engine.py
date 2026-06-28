@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 16:16:20 — style: run black formatter on alert_engine
 
 # 16:29:57 — style: run black formatter on alert_engine
+
+# 14:47:25 — docs: update docstring example in alert_engine
