@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 16:47:35 — style: reorder imports in sequence_dataset
 
 # 15:42:08 — docs: fix typo in sequence_dataset
+
+# 14:47:25 — fix: handle None edge case in sequence_dataset
