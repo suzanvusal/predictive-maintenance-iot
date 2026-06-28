@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 16:19:29 — style: reorder imports in label_generator
 
 # 16:54:01 — fix: remove unused import in label_generator
+
+# 14:47:26 — fix: handle None edge case in label_generator
