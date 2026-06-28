@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 15:02:24 — fix: correct off-by-one in signal_processor
 
 # 15:32:26 — refactor: rename variable for clarity in signal_processor
+
+# 14:47:25 — docs: add module docstring to signal_processor
