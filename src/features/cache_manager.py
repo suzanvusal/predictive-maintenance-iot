@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 17:39:53 — fix: remove unused import in cache_manager
 
 # 15:32:26 — perf: add caching in cache_manager
+
+# 16:37:50 — refactor: extract constant in cache_manager
