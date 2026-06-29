@@ -18,3 +18,5 @@ __version__ = "0.1.0"
 # 14:27:40 — refactor: extract constant in __init__
 
 # 14:27:40 — test: add assertion for return type in __init__
+
+# 16:37:50 — docs: fix typo in __init__
