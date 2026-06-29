@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 14:27:57 — chore: add logging to model_promoter
 
 # 14:47:25 — fix: add missing type hint in model_promoter
+
+# 16:37:50 — chore: add logging to model_promoter
