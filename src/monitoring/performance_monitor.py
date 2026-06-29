@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 15:47:25 — fix: Evidently failing on FFT features with zero variance
 
 # 16:47:35 — fix: add missing type hint in performance_monitor
+
+# 16:37:50 — perf: add caching in performance_monitor
