@@ -7,3 +7,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 16:37:50 — security: add SECURITY.md with vulnerability reporting
 
 # 16:37:50 — chore: final dependency audit
+
+# 16:37:50 — docs: fix broken links in README
