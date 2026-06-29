@@ -94,3 +94,5 @@ def test_sensor_batch_count():
 # 14:59:19 — docs: add module docstring to test_schemas
 
 # 15:58:16 — perf: add caching in test_schemas
+
+# 16:37:50 — refactor: extract constant in test_schemas
