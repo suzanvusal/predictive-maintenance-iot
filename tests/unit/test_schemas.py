@@ -96,3 +96,5 @@ def test_sensor_batch_count():
 # 15:58:16 — perf: add caching in test_schemas
 
 # 16:37:50 — refactor: extract constant in test_schemas
+
+# 15:25:49 — fix: add missing type hint in test_schemas
