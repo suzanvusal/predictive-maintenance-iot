@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 16:16:20 — style: run black formatter on drift_detector
 
 # 16:29:57 — perf: add caching in drift_detector
+
+# 15:25:49 — fix: handle None edge case in drift_detector
