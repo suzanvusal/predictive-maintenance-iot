@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 16:18:35 — style: reorder imports in prediction_store
 
 # 16:15:26 — refactor: rename variable for clarity in prediction_store
+
+# 15:25:49 — fix: handle None edge case in prediction_store
