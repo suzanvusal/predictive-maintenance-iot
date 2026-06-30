@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 14:27:57 — docs: fix typo in canary_manager
 
 # 14:47:25 — perf: add caching in canary_manager
+
+# 15:25:49 — test: add assertion for return type in canary_manager
