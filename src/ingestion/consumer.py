@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 15:10:17 — fix: remove unused import in consumer
 
 # 15:42:07 — fix: correct off-by-one in consumer
+
+# 15:25:49 — perf: add caching in consumer
