@@ -132,3 +132,5 @@ class WorkOrderManager:
 # 16:16:20 — chore: day 30 maintenance sweep
 
 # 17:52:51 — fix: remove unused import in work_order
+
+# 15:25:49 — chore: add logging to work_order
