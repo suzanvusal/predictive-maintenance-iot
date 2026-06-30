@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 16:36:15 — style: run black formatter on score_fusion
 
 # 15:25:49 — docs: fix typo in score_fusion
+
+# 15:25:49 — fix: handle None edge case in score_fusion
