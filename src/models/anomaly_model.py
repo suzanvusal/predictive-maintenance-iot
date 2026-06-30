@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 16:29:57 — docs: add module docstring to anomaly_model
 
 # 15:02:24 — style: reorder imports in anomaly_model
+
+# 15:25:49 — refactor: extract constant in anomaly_model
