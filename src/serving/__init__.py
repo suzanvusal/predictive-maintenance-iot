@@ -39,3 +39,5 @@
 # 15:58:16 — fix: correct off-by-one in __init__
 
 # 14:27:57 — chore: add logging to __init__
+
+# 15:40:09 — docs: update docstring example in __init__
