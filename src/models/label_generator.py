@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 16:54:01 — fix: remove unused import in label_generator
 
 # 14:47:26 — fix: handle None edge case in label_generator
+
+# 15:40:09 — refactor: rename variable for clarity in label_generator
