@@ -35,3 +35,5 @@ logger = logging.getLogger(__name__)
 # 18:03:29 — fix: add missing type hint in sensor_fusion
 
 # 14:27:57 — refactor: rename variable for clarity in sensor_fusion
+
+# 15:40:08 — fix: correct off-by-one in sensor_fusion
