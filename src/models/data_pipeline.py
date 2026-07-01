@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 14:59:19 — fix: remove unused import in data_pipeline
 
 # 15:22:33 — style: run black formatter on data_pipeline
+
+# 15:40:09 — perf: add caching in data_pipeline
