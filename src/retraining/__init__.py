@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 16:54:01 — refactor: extract constant in __init__
 
 # 14:27:57 — test: add assertion for return type in __init__
+
+# 15:40:09 — docs: add module docstring to __init__
