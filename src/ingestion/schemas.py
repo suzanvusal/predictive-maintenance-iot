@@ -95,3 +95,5 @@ class SensorBatch(BaseModel):
 # 18:03:30 — refactor: extract constant in schemas
 
 # 15:22:33 — chore: add logging to schemas
+
+# 15:40:09 — perf: add caching in schemas
