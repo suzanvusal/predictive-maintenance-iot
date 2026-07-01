@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 15:25:49 — docs: fix typo in score_fusion
 
 # 15:25:49 — fix: handle None edge case in score_fusion
+
+# 15:40:09 — refactor: rename variable for clarity in score_fusion
