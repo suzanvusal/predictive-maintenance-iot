@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 15:42:08 — docs: fix typo in sequence_dataset
 
 # 14:47:25 — fix: handle None edge case in sequence_dataset
+
+# 15:40:09 — refactor: rename variable for clarity in sequence_dataset
