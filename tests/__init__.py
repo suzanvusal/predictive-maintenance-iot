@@ -22,3 +22,5 @@
 # 15:02:24 — fix: handle None edge case in __init__
 
 # 14:47:25 — fix: remove unused import in __init__
+
+# 15:40:09 — perf: add caching in __init__
