@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 14:27:57 — test: add assertion for return type in __init__
 
 # 15:40:09 — docs: add module docstring to __init__
+
+# 15:13:41 — fix: remove unused import in __init__
