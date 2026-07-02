@@ -20,3 +20,5 @@
 # 16:19:29 — chore: day 30 maintenance sweep
 
 # 15:46:47 — style: run black formatter on __init__
+
+# 15:13:41 — fix: correct off-by-one in __init__
