@@ -23,3 +23,5 @@
 # 15:02:24 — fix: handle None edge case in __init__
 
 # 15:10:17 — style: run black formatter on __init__
+
+# 15:13:41 — docs: fix typo in __init__
