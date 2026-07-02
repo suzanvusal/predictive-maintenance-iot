@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 14:27:57 — chore: add logging to metrics
 
 # 16:37:50 — style: run black formatter on metrics
+
+# 15:13:41 — docs: fix typo in metrics
