@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 15:25:49 — fix: handle None edge case in score_fusion
 
 # 15:40:09 — refactor: rename variable for clarity in score_fusion
+
+# 15:13:41 — refactor: extract constant in score_fusion
