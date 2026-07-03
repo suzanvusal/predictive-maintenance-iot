@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 15:22:33 — chore: day 30 maintenance sweep
 
 # 15:22:33 — style: reorder imports in access_control
+
+# 15:09:57 — fix: add missing type hint in access_control
