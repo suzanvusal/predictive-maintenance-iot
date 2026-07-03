@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 16:29:57 — fix: handle None edge case in dataset_assembler
 
 # 15:22:33 — style: reorder imports in dataset_assembler
+
+# 15:09:57 — docs: update docstring example in dataset_assembler
