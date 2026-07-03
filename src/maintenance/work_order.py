@@ -134,3 +134,5 @@ class WorkOrderManager:
 # 17:52:51 — fix: remove unused import in work_order
 
 # 15:25:49 — chore: add logging to work_order
+
+# 15:09:57 — refactor: extract constant in work_order
