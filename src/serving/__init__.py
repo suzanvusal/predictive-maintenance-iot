@@ -41,3 +41,5 @@
 # 14:27:57 — chore: add logging to __init__
 
 # 15:40:09 — docs: update docstring example in __init__
+
+# 15:09:57 — perf: add caching in __init__
