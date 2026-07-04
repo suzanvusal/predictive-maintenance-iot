@@ -97,3 +97,5 @@ class SensorBatch(BaseModel):
 # 15:22:33 — chore: add logging to schemas
 
 # 15:40:09 — perf: add caching in schemas
+
+# 14:27:58 — test: add assertion for return type in schemas
