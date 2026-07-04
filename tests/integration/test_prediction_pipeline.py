@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 15:10:17 — fix: remove unused import in test_prediction_pipeline
 
 # 17:39:53 — test: add assertion for return type in test_prediction_pipel
+
+# 14:27:57 — fix: correct off-by-one in test_prediction_pipeline
