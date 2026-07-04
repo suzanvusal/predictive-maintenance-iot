@@ -73,5 +73,3 @@ curl -X POST http://localhost:8000/assets/predict \
 
 ## License
 MIT
-
-# 15:09:57 — docs: add predictive maintenance ROI calculator to README
