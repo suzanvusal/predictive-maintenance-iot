@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 14:27:57 — chore: add logging to scheduler
 
 # 14:27:58 — fix: remove unused import in scheduler
+
+# 14:27:58 — style: run black formatter on scheduler
