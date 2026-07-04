@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 15:58:16 — docs: add module docstring to test_serving_api
 
 # 17:39:53 — refactor: rename variable for clarity in test_serving_api
+
+# 14:27:57 — chore: add logging to test_serving_api
