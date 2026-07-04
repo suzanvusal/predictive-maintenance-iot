@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 15:54:03 — fix: correct off-by-one in scheduler
 
 # 15:58:16 — chore: day 30 maintenance sweep
+
+# 14:27:57 — chore: add logging to scheduler
