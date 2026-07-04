@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 15:58:16 — chore: day 30 maintenance sweep
 
 # 17:39:53 — perf: add caching in validator
+
+# 14:27:58 — chore: add logging to validator
