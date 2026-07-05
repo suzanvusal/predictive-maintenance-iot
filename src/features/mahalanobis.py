@@ -39,3 +39,5 @@ logger = logging.getLogger(__name__)
 # 15:32:26 — docs: update docstring example in mahalanobis
 
 # 14:27:57 — test: add assertion for return type in mahalanobis
+
+# 14:41:58 — style: run black formatter on mahalanobis
