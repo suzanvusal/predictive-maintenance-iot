@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 15:52:55 — refactor: extract constant in test_feature_store
 
 # 16:16:20 — style: reorder imports in test_feature_store
+
+# 14:41:58 — fix: add missing type hint in test_feature_store
