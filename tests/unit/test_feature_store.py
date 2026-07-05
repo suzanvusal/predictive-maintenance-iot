@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 16:16:20 — style: reorder imports in test_feature_store
 
 # 14:41:58 — fix: add missing type hint in test_feature_store
+
+# 14:41:58 — fix: correct off-by-one in test_feature_store
