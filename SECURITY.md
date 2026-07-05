@@ -7,3 +7,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 14:41:58 — security: add SECURITY.md with vulnerability reporting
 
 # 14:41:58 — docs: add predictive maintenance ROI calculator to README
+
+# 14:41:58 — docs: fix broken links in README
