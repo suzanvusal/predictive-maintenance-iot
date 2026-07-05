@@ -73,11 +73,3 @@ curl -X POST http://localhost:8000/assets/predict \
 
 ## License
 MIT
-
-# 14:27:57 — chore: tag v1.0.0 release
-
-# 14:27:57 — ci: add end-to-end smoke test to release pipeline
-
-# 14:27:57 — chore: final dependency audit
-
-# 14:27:57 — fix: env variable names inconsistent across services
