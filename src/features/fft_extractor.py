@@ -138,3 +138,5 @@ class FFTFeatureExtractor:
 # 15:32:26 — style: run black formatter on fft_extractor
 
 # 14:41:58 — refactor: extract constant in fft_extractor
+
+# 14:41:58 — chore: add logging to fft_extractor
