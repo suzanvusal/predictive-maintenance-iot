@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 14:40:50 — docs: fix typo in frequency_features
 
 # 15:58:16 — fix: add missing type hint in frequency_features
+
+# 14:41:58 — perf: add caching in frequency_features
