@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 14:27:57 — docs: add module docstring to locustfile
 
 # 14:41:58 — refactor: extract constant in locustfile
+
+# 14:41:58 — perf: add caching in locustfile
