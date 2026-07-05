@@ -22,3 +22,5 @@
 # 15:46:47 — style: run black formatter on __init__
 
 # 15:13:41 — fix: correct off-by-one in __init__
+
+# 14:41:58 — docs: update docstring example in __init__
