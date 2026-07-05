@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 16:38:02 — fix: correct off-by-one in outcome_recorder
 
 # 15:40:09 — fix: add missing type hint in outcome_recorder
+
+# 14:41:58 — refactor: extract constant in outcome_recorder
