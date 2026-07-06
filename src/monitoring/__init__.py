@@ -19,3 +19,5 @@
 # 16:54:01 — perf: add caching in __init__
 
 # 16:16:20 — docs: update docstring example in __init__
+
+# 16:19:56 — docs: fix typo in __init__
