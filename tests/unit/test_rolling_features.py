@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 14:27:57 — refactor: extract constant in test_rolling_features
 
 # 16:19:56 — chore: add logging to test_rolling_features
+
+# 16:19:56 — docs: add module docstring to test_rolling_features
