@@ -45,3 +45,5 @@ logger = logging.getLogger(__name__)
 # 17:39:53 — refactor: extract constant in kafka_producer
 
 # 15:46:47 — style: run black formatter on kafka_producer
+
+# 16:19:55 — docs: update docstring example in kafka_producer
