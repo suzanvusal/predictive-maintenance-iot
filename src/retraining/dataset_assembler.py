@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 15:22:33 — style: reorder imports in dataset_assembler
 
 # 15:09:57 — docs: update docstring example in dataset_assembler
+
+# 16:19:56 — perf: add caching in dataset_assembler
