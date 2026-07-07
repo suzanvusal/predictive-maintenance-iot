@@ -73,7 +73,3 @@ curl -X POST http://localhost:8000/assets/predict \
 
 ## License
 MIT
-
-# 16:19:55 — security: add SECURITY.md with vulnerability reporting
-
-# 16:19:55 — chore: final dependency audit
