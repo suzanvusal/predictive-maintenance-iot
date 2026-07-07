@@ -37,3 +37,5 @@
 # 15:22:33 — refactor: extract constant in __init__
 
 # 16:37:50 — fix: add missing type hint in __init__
+
+# 15:42:32 — refactor: rename variable for clarity in __init__
