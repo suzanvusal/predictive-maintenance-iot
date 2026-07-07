@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 17:39:53 — perf: add caching in validator
 
 # 14:27:58 — chore: add logging to validator
+
+# 15:42:32 — fix: handle None edge case in validator
