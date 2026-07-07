@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 14:27:58 — style: reorder imports in test_isolation_forest
 
 # 15:42:32 — chore: day 30 maintenance sweep
+
+# 15:42:32 — docs: add module docstring to test_isolation_forest
