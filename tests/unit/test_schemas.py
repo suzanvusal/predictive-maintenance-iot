@@ -98,3 +98,5 @@ def test_sensor_batch_count():
 # 16:37:50 — refactor: extract constant in test_schemas
 
 # 15:25:49 — fix: add missing type hint in test_schemas
+
+# 15:42:32 — fix: add missing type hint in test_schemas
