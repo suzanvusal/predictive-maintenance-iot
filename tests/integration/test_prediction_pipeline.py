@@ -33,3 +33,5 @@ logger = logging.getLogger(__name__)
 # 17:39:53 — test: add assertion for return type in test_prediction_pipel
 
 # 14:27:57 — fix: correct off-by-one in test_prediction_pipeline
+
+# 15:42:32 — refactor: extract constant in test_prediction_pipeline
