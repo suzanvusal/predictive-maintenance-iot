@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 16:37:50 — perf: add caching in performance_monitor
 
 # 15:09:57 — perf: add caching in performance_monitor
+
+# 15:42:32 — fix: correct off-by-one in performance_monitor
