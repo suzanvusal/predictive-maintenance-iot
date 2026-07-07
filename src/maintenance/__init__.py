@@ -27,3 +27,5 @@
 # 15:13:41 — docs: fix typo in __init__
 
 # 14:41:58 — fix: remove unused import in __init__
+
+# 15:42:32 — docs: add module docstring to __init__
