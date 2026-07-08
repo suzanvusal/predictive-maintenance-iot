@@ -35,3 +35,5 @@ logger = logging.getLogger(__name__)
 # 17:39:53 — style: run black formatter on feature_schema
 
 # 15:46:47 — style: reorder imports in feature_schema
+
+# 15:20:22 — fix: remove unused import in feature_schema
