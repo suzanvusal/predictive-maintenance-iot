@@ -24,3 +24,5 @@
 # 15:13:41 — fix: correct off-by-one in __init__
 
 # 14:41:58 — docs: update docstring example in __init__
+
+# 15:20:22 — fix: add missing type hint in __init__
