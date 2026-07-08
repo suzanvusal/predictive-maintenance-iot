@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 16:29:57 — perf: add caching in drift_detector
 
 # 15:25:49 — fix: handle None edge case in drift_detector
+
+# 15:20:22 — chore: add logging to drift_detector
