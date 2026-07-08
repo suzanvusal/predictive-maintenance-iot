@@ -11,3 +11,5 @@
 # 15:42:23 — fix: add missing type hint in __init__
 
 # 15:12:06 — refactor: rename variable for clarity in __init__
+
+# 15:20:22 — style: run black formatter on __init__
