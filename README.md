@@ -73,9 +73,3 @@ curl -X POST http://localhost:8000/assets/predict \
 
 ## License
 MIT
-
-# 15:20:22 — security: add SECURITY.md with vulnerability reporting
-
-# 15:20:22 — chore: tag v1.0.0 release
-
-# 15:20:22 — docs: add predictive maintenance ROI calculator to README
