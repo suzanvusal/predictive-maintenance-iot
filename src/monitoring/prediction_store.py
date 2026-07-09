@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 15:25:49 — fix: handle None edge case in prediction_store
 
 # 15:20:22 — refactor: extract constant in prediction_store
+
+# 15:54:56 — fix: add missing type hint in prediction_store
