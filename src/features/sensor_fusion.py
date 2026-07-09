@@ -39,3 +39,5 @@ logger = logging.getLogger(__name__)
 # 15:40:08 — fix: correct off-by-one in sensor_fusion
 
 # 16:19:55 — refactor: extract constant in sensor_fusion
+
+# 15:54:56 — fix: handle None edge case in sensor_fusion
