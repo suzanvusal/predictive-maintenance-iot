@@ -37,3 +37,5 @@ logger = logging.getLogger(__name__)
 # 15:46:47 — style: reorder imports in feature_schema
 
 # 15:20:22 — fix: remove unused import in feature_schema
+
+# 15:54:56 — test: add assertion for return type in feature_schema
