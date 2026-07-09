@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 16:37:50 — docs: fix typo in test_work_order
 
 # 16:19:56 — fix: remove unused import in test_work_order
+
+# 15:54:56 — fix: add missing type hint in test_work_order
