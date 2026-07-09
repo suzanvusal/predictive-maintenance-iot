@@ -49,3 +49,5 @@ logger = logging.getLogger(__name__)
 # 14:47:25 — perf: add caching in mqtt_subscriber
 
 # 15:20:22 — fix: correct off-by-one in mqtt_subscriber
+
+# 15:54:56 — chore: add logging to mqtt_subscriber
