@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 16:19:56 — chore: add logging to test_rolling_features
 
 # 16:19:56 — docs: add module docstring to test_rolling_features
+
+# 15:54:56 — perf: add caching in test_rolling_features
