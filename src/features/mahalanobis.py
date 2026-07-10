@@ -41,3 +41,5 @@ logger = logging.getLogger(__name__)
 # 14:27:57 — test: add assertion for return type in mahalanobis
 
 # 14:41:58 — style: run black formatter on mahalanobis
+
+# 15:30:49 — fix: correct off-by-one in mahalanobis
