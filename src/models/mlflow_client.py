@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 17:59:45 — refactor: rename variable for clarity in mlflow_client
 
 # 16:54:01 — style: run black formatter on mlflow_client
+
+# 15:30:49 — test: add assertion for return type in mlflow_client
