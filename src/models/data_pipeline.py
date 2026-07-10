@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 15:22:33 — style: run black formatter on data_pipeline
 
 # 15:40:09 — perf: add caching in data_pipeline
+
+# 15:30:49 — fix: handle None edge case in data_pipeline
