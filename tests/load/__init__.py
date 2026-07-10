@@ -18,3 +18,5 @@
 # 15:20:23 — chore: day 30 maintenance sweep
 
 # 15:54:56 — test: add assertion for return type in __init__
+
+# 15:30:49 — chore: add logging to __init__
