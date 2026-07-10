@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 14:47:25 — fix: handle None edge case in sequence_dataset
 
 # 15:40:09 — refactor: rename variable for clarity in sequence_dataset
+
+# 15:30:49 — chore: add logging to sequence_dataset
