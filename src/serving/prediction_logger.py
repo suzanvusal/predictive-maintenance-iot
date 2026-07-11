@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 16:35:01 — docs: fix typo in prediction_logger
 
 # 16:38:02 — style: reorder imports in prediction_logger
+
+# 14:20:52 — chore: add logging to prediction_logger
