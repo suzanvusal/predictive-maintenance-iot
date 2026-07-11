@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 15:09:57 — fix: add missing type hint in access_control
 
 # 15:30:49 — perf: add caching in access_control
+
+# 14:20:52 — perf: add caching in access_control
