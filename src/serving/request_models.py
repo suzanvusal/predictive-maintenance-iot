@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 16:29:57 — docs: update docstring example in request_models
 
 # 15:25:49 — fix: remove unused import in request_models
+
+# 14:20:52 — test: add assertion for return type in request_models
