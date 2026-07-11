@@ -73,3 +73,5 @@ curl -X POST http://localhost:8000/assets/predict \
 
 ## License
 MIT
+
+# 14:20:52 — ci: add end-to-end smoke test to release pipeline
