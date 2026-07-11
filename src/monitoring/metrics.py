@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 15:13:41 — docs: fix typo in metrics
 
 # 15:42:32 — chore: day 30 maintenance sweep
+
+# 14:20:52 — docs: add module docstring to metrics
