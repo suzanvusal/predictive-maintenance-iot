@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 15:09:57 — style: reorder imports in score_fusion
 
 # 15:42:32 — refactor: extract constant in score_fusion
+
+# 14:20:52 — docs: update docstring example in score_fusion
