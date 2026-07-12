@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 15:42:07 — chore: add logging to escalation_manager
 
 # 14:27:58 — chore: add logging to escalation_manager
+
+# 14:26:58 — fix: handle None edge case in escalation_manager
