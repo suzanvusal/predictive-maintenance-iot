@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 14:41:58 — refactor: extract constant in test_fft_extractor
 
 # 15:54:56 — chore: day 30 maintenance sweep
+
+# 14:26:58 — docs: add module docstring to test_fft_extractor
