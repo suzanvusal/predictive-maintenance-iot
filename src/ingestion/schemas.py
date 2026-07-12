@@ -99,3 +99,5 @@ class SensorBatch(BaseModel):
 # 15:40:09 — perf: add caching in schemas
 
 # 14:27:58 — test: add assertion for return type in schemas
+
+# 14:26:58 — fix: handle None edge case in schemas
