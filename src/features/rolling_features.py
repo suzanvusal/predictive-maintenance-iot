@@ -41,3 +41,5 @@ logger = logging.getLogger(__name__)
 # 15:22:33 — docs: update docstring example in rolling_features
 
 # 15:30:49 — style: reorder imports in rolling_features
+
+# 15:40:20 — fix: remove unused import in rolling_features
