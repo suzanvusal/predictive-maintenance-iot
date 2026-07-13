@@ -5,3 +5,5 @@ Day 30: Final polish, README & project completion
 Complete README, architecture diagrams, changelog, v1.0.0 release
 
 # 15:40:20 — docs: add predictive maintenance ROI calculator to README
+
+# 15:40:20 — chore: archive development notebooks
