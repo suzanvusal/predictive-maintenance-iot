@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 14:41:58 — style: run black formatter on scheduler
 
 # 15:42:32 — perf: add caching in scheduler
+
+# 15:40:20 — docs: update docstring example in scheduler
