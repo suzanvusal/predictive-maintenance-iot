@@ -24,3 +24,5 @@
 # 14:47:25 — fix: remove unused import in __init__
 
 # 15:40:09 — perf: add caching in __init__
+
+# 15:40:20 — refactor: extract constant in __init__
