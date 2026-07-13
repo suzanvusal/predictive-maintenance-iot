@@ -13,3 +13,5 @@
 # 15:12:06 — refactor: rename variable for clarity in __init__
 
 # 15:20:22 — style: run black formatter on __init__
+
+# 15:40:20 — refactor: extract constant in __init__
