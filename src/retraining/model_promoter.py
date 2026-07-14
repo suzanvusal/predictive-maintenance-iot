@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 14:26:58 — fix: handle None edge case in model_promoter
 
 # 15:40:20 — fix: add missing type hint in model_promoter
+
+# 14:48:55 — docs: update docstring example in model_promoter
