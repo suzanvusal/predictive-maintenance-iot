@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 15:09:57 — docs: update docstring example in dataset_assembler
 
 # 16:19:56 — perf: add caching in dataset_assembler
+
+# 14:48:55 — docs: add module docstring to dataset_assembler
