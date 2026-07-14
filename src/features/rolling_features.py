@@ -43,3 +43,5 @@ logger = logging.getLogger(__name__)
 # 15:30:49 — style: reorder imports in rolling_features
 
 # 15:40:20 — fix: remove unused import in rolling_features
+
+# 14:48:55 — fix: correct off-by-one in rolling_features
