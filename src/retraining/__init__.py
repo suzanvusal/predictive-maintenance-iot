@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 15:13:41 — fix: remove unused import in __init__
 
 # 15:09:57 — fix: remove unused import in __init__
+
+# 14:48:55 — fix: add missing type hint in __init__
