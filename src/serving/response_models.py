@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 15:02:24 — style: run black formatter on response_models
 
 # 16:37:50 — test: add assertion for return type in response_models
+
+# 14:48:55 — fix: handle None edge case in response_models
