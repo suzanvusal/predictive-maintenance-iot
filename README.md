@@ -75,3 +75,5 @@ curl -X POST http://localhost:8000/assets/predict \
 MIT
 
 # 14:48:55 — security: add SECURITY.md with vulnerability reporting
+
+# 14:48:55 — chore: archive development notebooks
