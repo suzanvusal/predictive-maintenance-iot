@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 15:02:24 — chore: add logging to test_survival_model
 
 # 15:42:08 — docs: fix typo in test_survival_model
+
+# 14:48:55 — refactor: extract constant in test_survival_model
