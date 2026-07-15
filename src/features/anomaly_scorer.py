@@ -35,3 +35,5 @@ logger = logging.getLogger(__name__)
 # 15:54:56 — fix: remove unused import in anomaly_scorer
 
 # 14:26:58 — docs: update docstring example in anomaly_scorer
+
+# 14:48:54 — perf: add caching in anomaly_scorer
