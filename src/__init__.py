@@ -20,3 +20,5 @@ __version__ = "0.1.0"
 # 14:27:40 — test: add assertion for return type in __init__
 
 # 16:37:50 — docs: fix typo in __init__
+
+# 14:48:54 — perf: add caching in __init__
