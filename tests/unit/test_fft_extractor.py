@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 15:54:56 — chore: day 30 maintenance sweep
 
 # 14:26:58 — docs: add module docstring to test_fft_extractor
+
+# 14:48:54 — perf: add caching in test_fft_extractor
