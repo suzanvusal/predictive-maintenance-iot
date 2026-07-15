@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 15:46:47 — chore: day 30 maintenance sweep
 
 # 14:48:55 — refactor: extract constant in __init__
+
+# 14:48:54 — chore: add logging to __init__
