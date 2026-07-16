@@ -43,3 +43,5 @@
 # 15:40:09 — docs: update docstring example in __init__
 
 # 15:09:57 — perf: add caching in __init__
+
+# 15:00:11 — fix: handle None edge case in __init__
