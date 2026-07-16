@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 15:30:49 — style: reorder imports in test_anomaly_scorer
 
 # 14:48:54 — docs: update docstring example in test_anomaly_scorer
+
+# 15:00:11 — docs: fix typo in test_anomaly_scorer
