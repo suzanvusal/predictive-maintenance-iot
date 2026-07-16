@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 14:48:55 — refactor: extract constant in __init__
 
 # 14:48:54 — chore: add logging to __init__
+
+# 15:00:11 — perf: add caching in __init__
