@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 15:58:16 — perf: add caching in survival_model
 
 # 15:22:33 — refactor: extract constant in survival_model
+
+# 15:00:11 — perf: add caching in survival_model
