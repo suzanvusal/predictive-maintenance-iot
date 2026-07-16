@@ -73,5 +73,3 @@ curl -X POST http://localhost:8000/assets/predict \
 
 ## License
 MIT
-
-# 14:48:54 — chore: final dependency audit
