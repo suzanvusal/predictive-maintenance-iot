@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 14:20:52 — style: run black formatter on sequence_dataset
 
 # 14:26:58 — docs: add module docstring to sequence_dataset
+
+# 14:42:40 — test: add assertion for return type in sequence_dataset
