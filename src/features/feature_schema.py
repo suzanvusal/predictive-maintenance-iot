@@ -41,3 +41,5 @@ logger = logging.getLogger(__name__)
 # 15:54:56 — test: add assertion for return type in feature_schema
 
 # 14:48:54 — style: run black formatter on feature_schema
+
+# 14:42:40 — test: add assertion for return type in feature_schema
