@@ -75,3 +75,5 @@ curl -X POST http://localhost:8000/assets/predict \
 MIT
 
 # 14:42:40 — docs: add predictive maintenance ROI calculator to README
+
+# 14:42:40 — docs: fix broken links in README
