@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 15:20:22 — chore: add logging to drift_detector
 
 # 15:54:56 — fix: add missing type hint in drift_detector
+
+# 14:42:40 — test: add assertion for return type in drift_detector
