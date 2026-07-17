@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 15:20:22 — refactor: extract constant in prediction_store
 
 # 15:54:56 — fix: add missing type hint in prediction_store
+
+# 14:42:40 — test: add assertion for return type in prediction_store
