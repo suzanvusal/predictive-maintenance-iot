@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 14:25:02 — chore: add logging to lstm_trainer
 
 # 14:27:58 — chore: day 30 maintenance sweep
+
+# 14:42:40 — perf: add caching in lstm_trainer
