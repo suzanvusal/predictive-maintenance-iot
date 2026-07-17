@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 16:37:50 — test: add assertion for return type in response_models
 
 # 14:48:55 — fix: handle None edge case in response_models
+
+# 14:42:40 — fix: correct off-by-one in response_models
