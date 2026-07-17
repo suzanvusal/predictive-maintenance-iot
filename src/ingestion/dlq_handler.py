@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 16:38:02 — docs: update docstring example in dlq_handler
 
 # 15:32:26 — docs: fix typo in dlq_handler
+
+# 14:42:40 — fix: correct off-by-one in dlq_handler
