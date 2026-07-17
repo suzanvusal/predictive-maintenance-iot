@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 16:38:02 — refactor: rename variable for clarity in priority_engine
 
 # 15:58:16 — style: reorder imports in priority_engine
+
+# 14:42:40 — fix: add missing type hint in priority_engine
