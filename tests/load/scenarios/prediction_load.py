@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 17:39:53 — docs: update docstring example in prediction_load
 
 # 14:48:55 — fix: handle None edge case in prediction_load
+
+# 14:19:09 — fix: add missing type hint in prediction_load
