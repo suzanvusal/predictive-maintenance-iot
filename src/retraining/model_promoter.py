@@ -33,3 +33,5 @@ logger = logging.getLogger(__name__)
 # 15:40:20 — fix: add missing type hint in model_promoter
 
 # 14:48:55 — docs: update docstring example in model_promoter
+
+# 14:19:09 — style: run black formatter on model_promoter
