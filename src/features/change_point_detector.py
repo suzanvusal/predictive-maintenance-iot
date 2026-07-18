@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 14:27:57 — perf: add caching in change_point_detector
 
 # 14:20:52 — fix: remove unused import in change_point_detector
+
+# 14:19:09 — style: run black formatter on change_point_detector
