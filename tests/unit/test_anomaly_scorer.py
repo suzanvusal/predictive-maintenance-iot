@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 15:00:11 — docs: fix typo in test_anomaly_scorer
 
 # 15:00:11 — docs: update docstring example in test_anomaly_scorer
+
+# 14:22:49 — refactor: extract constant in test_anomaly_scorer
