@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 16:19:56 — perf: add caching in dataset_assembler
 
 # 14:48:55 — docs: add module docstring to dataset_assembler
+
+# 14:22:49 — fix: add missing type hint in dataset_assembler
