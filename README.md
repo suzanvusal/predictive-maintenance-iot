@@ -75,3 +75,5 @@ curl -X POST http://localhost:8000/assets/predict \
 MIT
 
 # 14:22:49 — security: add SECURITY.md with vulnerability reporting
+
+# 14:22:49 — ci: add end-to-end smoke test to release pipeline
