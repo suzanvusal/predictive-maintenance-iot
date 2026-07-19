@@ -73,3 +73,5 @@ curl -X POST http://localhost:8000/assets/predict \
 
 ## License
 MIT
+
+# 14:22:49 — security: add SECURITY.md with vulnerability reporting
