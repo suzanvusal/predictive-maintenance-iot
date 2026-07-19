@@ -35,3 +35,5 @@ logger = logging.getLogger(__name__)
 # 15:00:11 — fix: remove unused import in label_generator
 
 # 14:22:49 — style: run black formatter on label_generator
+
+# 14:22:49 — perf: add caching in label_generator
