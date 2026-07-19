@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 15:40:20 — style: reorder imports in prediction_service
 
 # 14:42:40 — docs: fix typo in prediction_service
+
+# 14:22:49 — docs: add module docstring to prediction_service
