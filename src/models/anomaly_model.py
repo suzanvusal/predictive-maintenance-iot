@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 15:02:24 — style: reorder imports in anomaly_model
 
 # 15:25:49 — refactor: extract constant in anomaly_model
+
+# 14:22:49 — fix: add missing type hint in anomaly_model
