@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 15:20:22 — perf: add caching in feature_store
 
 # 14:48:54 — refactor: rename variable for clarity in feature_store
+
+# 14:22:49 — fix: handle None edge case in feature_store
