@@ -35,3 +35,5 @@ logger = logging.getLogger(__name__)
 # 15:25:49 — perf: add caching in consumer
 
 # 14:19:09 — chore: day 30 maintenance sweep
+
+# 15:10:20 — fix: remove unused import in consumer
