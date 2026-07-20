@@ -73,9 +73,3 @@ curl -X POST http://localhost:8000/assets/predict \
 
 ## License
 MIT
-
-# 14:22:49 — security: add SECURITY.md with vulnerability reporting
-
-# 14:22:49 — ci: add end-to-end smoke test to release pipeline
-
-# 14:22:49 — fix: env variable names inconsistent across services
