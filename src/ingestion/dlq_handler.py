@@ -33,3 +33,5 @@ logger = logging.getLogger(__name__)
 # 15:32:26 — docs: fix typo in dlq_handler
 
 # 14:42:40 — fix: correct off-by-one in dlq_handler
+
+# 15:10:20 — fix: add missing type hint in dlq_handler
