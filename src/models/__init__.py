@@ -43,3 +43,5 @@
 # 14:20:52 — style: reorder imports in __init__
 
 # 14:26:58 — perf: add caching in __init__
+
+# 15:10:20 — perf: add caching in __init__
