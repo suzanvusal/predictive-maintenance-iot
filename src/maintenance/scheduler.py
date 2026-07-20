@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 15:42:32 — perf: add caching in scheduler
 
 # 15:40:20 — docs: update docstring example in scheduler
+
+# 15:10:20 — fix: handle None edge case in scheduler
