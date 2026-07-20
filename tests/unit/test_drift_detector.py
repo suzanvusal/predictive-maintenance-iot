@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 14:48:54 — refactor: rename variable for clarity in test_drift_detector
 
 # 14:42:40 — fix: handle None edge case in test_drift_detector
+
+# 15:10:20 — refactor: extract constant in test_drift_detector
