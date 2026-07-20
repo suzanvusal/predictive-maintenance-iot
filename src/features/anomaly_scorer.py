@@ -37,3 +37,5 @@ logger = logging.getLogger(__name__)
 # 14:26:58 — docs: update docstring example in anomaly_scorer
 
 # 14:48:54 — perf: add caching in anomaly_scorer
+
+# 15:10:20 — fix: add missing type hint in anomaly_scorer
