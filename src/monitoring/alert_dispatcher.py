@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 14:26:58 — chore: day 30 maintenance sweep
 
 # 14:48:55 — fix: correct off-by-one in alert_dispatcher
+
+# 15:10:20 — perf: add caching in alert_dispatcher
