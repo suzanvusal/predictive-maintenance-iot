@@ -33,3 +33,5 @@ logger = logging.getLogger(__name__)
 # 15:42:32 — fix: handle None edge case in validator
 
 # 14:22:49 — refactor: extract constant in validator
+
+# 15:02:46 — fix: handle None edge case in validator
