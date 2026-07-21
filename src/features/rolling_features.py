@@ -45,3 +45,5 @@ logger = logging.getLogger(__name__)
 # 15:40:20 — fix: remove unused import in rolling_features
 
 # 14:48:55 — fix: correct off-by-one in rolling_features
+
+# 15:02:46 — fix: handle None edge case in rolling_features
