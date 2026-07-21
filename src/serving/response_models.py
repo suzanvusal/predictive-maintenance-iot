@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 14:48:55 — fix: handle None edge case in response_models
 
 # 14:42:40 — fix: correct off-by-one in response_models
+
+# 15:02:46 — refactor: extract constant in response_models
