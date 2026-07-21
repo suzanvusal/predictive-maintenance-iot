@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 15:40:20 — docs: update docstring example in scheduler
 
 # 15:10:20 — fix: handle None edge case in scheduler
+
+# 15:02:46 — docs: fix typo in scheduler
