@@ -35,3 +35,5 @@ logger = logging.getLogger(__name__)
 # 14:41:58 — perf: add caching in frequency_features
 
 # 14:26:58 — fix: handle None edge case in frequency_features
+
+# 15:02:46 — refactor: rename variable for clarity in frequency_features
