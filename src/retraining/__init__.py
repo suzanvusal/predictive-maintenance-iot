@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 14:48:55 — fix: add missing type hint in __init__
 
 # 14:19:09 — fix: correct off-by-one in __init__
+
+# 15:02:46 — docs: update docstring example in __init__
