@@ -35,3 +35,5 @@ logger = logging.getLogger(__name__)
 # 14:19:09 — style: run black formatter on change_point_detector
 
 # 15:10:20 — refactor: rename variable for clarity in change_point_detect
+
+# 15:02:27 — fix: correct off-by-one in change_point_detector
