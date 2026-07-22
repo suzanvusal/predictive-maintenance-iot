@@ -35,3 +35,5 @@ logger = logging.getLogger(__name__)
 # 14:20:52 — refactor: extract constant in test_rolling_features
 
 # 14:48:54 — docs: fix typo in test_rolling_features
+
+# 15:02:27 — docs: fix typo in test_rolling_features
