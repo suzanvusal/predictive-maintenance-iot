@@ -33,3 +33,5 @@ logger = logging.getLogger(__name__)
 # 15:54:56 — fix: add missing type hint in drift_detector
 
 # 14:42:40 — test: add assertion for return type in drift_detector
+
+# 15:02:27 — docs: update docstring example in drift_detector
