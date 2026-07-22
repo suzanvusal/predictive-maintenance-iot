@@ -35,3 +35,5 @@ logger = logging.getLogger(__name__)
 # 14:42:40 — fix: correct off-by-one in dlq_handler
 
 # 15:10:20 — fix: add missing type hint in dlq_handler
+
+# 15:02:27 — chore: day 30 maintenance sweep
