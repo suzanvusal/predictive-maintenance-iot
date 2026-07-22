@@ -22,3 +22,5 @@ __version__ = "0.1.0"
 # 16:37:50 — docs: fix typo in __init__
 
 # 14:48:54 — perf: add caching in __init__
+
+# 15:02:27 — refactor: rename variable for clarity in __init__
