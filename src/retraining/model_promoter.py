@@ -37,3 +37,5 @@ logger = logging.getLogger(__name__)
 # 14:19:09 — style: run black formatter on model_promoter
 
 # 15:02:46 — fix: remove unused import in model_promoter
+
+# 15:02:27 — perf: add caching in model_promoter
