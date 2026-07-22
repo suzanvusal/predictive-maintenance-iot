@@ -35,3 +35,5 @@ logger = logging.getLogger(__name__)
 # 14:20:52 — test: add assertion for return type in test_feature_store
 
 # 15:00:11 — refactor: extract constant in test_feature_store
+
+# 15:02:27 — docs: add module docstring to test_feature_store
