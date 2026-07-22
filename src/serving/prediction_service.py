@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 14:42:40 — docs: fix typo in prediction_service
 
 # 14:22:49 — docs: add module docstring to prediction_service
+
+# 15:02:27 — test: add assertion for return type in prediction_service
