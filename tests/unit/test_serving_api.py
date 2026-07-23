@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 17:39:53 — refactor: rename variable for clarity in test_serving_api
 
 # 14:27:57 — chore: add logging to test_serving_api
+
+# 15:07:06 — style: run black formatter on test_serving_api
