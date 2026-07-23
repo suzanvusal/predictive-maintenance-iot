@@ -73,7 +73,3 @@ curl -X POST http://localhost:8000/assets/predict \
 
 ## License
 MIT
-
-# 15:02:27 — chore: tag v1.0.0 release
-
-# 15:02:27 — ci: add end-to-end smoke test to release pipeline
