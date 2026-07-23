@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 15:40:09 — style: reorder imports in lstm_model
 
 # 16:19:55 — perf: add caching in lstm_model
+
+# 15:07:06 — fix: add missing type hint in lstm_model
