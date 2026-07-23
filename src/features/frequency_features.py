@@ -37,3 +37,5 @@ logger = logging.getLogger(__name__)
 # 14:26:58 — fix: handle None edge case in frequency_features
 
 # 15:02:46 — refactor: rename variable for clarity in frequency_features
+
+# 15:07:06 — test: add assertion for return type in frequency_features
