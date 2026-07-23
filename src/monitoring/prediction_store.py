@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 15:02:46 — fix: correct off-by-one in prediction_store
 
 # 15:02:27 — test: add assertion for return type in prediction_store
+
+# 15:07:06 — docs: add module docstring to prediction_store
