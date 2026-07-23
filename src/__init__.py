@@ -24,3 +24,5 @@ __version__ = "0.1.0"
 # 14:48:54 — perf: add caching in __init__
 
 # 15:02:27 — refactor: rename variable for clarity in __init__
+
+# 15:07:06 — refactor: extract constant in __init__
