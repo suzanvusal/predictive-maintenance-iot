@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 16:54:01 — fix: correct off-by-one in ensemble
 
 # 14:47:25 — docs: add module docstring to ensemble
+
+# 15:07:06 — perf: add caching in ensemble
