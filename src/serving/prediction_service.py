@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 14:22:49 — docs: add module docstring to prediction_service
 
 # 15:02:27 — test: add assertion for return type in prediction_service
+
+# 15:07:06 — fix: handle None edge case in prediction_service
