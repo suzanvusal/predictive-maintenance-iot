@@ -37,3 +37,5 @@ logger = logging.getLogger(__name__)
 # 15:32:26 — fix: remove unused import in test_consumer
 
 # 15:00:11 — style: run black formatter on test_consumer
+
+# 15:07:06 — docs: add module docstring to test_consumer
