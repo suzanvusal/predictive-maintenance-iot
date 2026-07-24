@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 16:16:20 — refactor: extract constant in test_ensemble
 
 # 14:27:58 — fix: add missing type hint in test_ensemble
+
+# 14:52:50 — fix: add missing type hint in test_ensemble
