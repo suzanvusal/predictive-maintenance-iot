@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 15:40:09 — fix: add missing type hint in alert_engine
 
 # 15:09:57 — fix: add missing type hint in alert_engine
+
+# 14:52:50 — refactor: extract constant in alert_engine
