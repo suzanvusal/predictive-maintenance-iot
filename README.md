@@ -73,7 +73,3 @@ curl -X POST http://localhost:8000/assets/predict \
 
 ## License
 MIT
-
-# 15:07:06 — docs: fix broken links in README
-
-# 15:07:06 — refactor: remove all TODO comments
