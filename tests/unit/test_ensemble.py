@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 14:27:58 — fix: add missing type hint in test_ensemble
 
 # 14:52:50 — fix: add missing type hint in test_ensemble
+
+# 14:52:50 — docs: update docstring example in test_ensemble
