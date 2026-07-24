@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 14:48:54 — refactor: rename variable for clarity in feature_store
 
 # 14:22:49 — fix: handle None edge case in feature_store
+
+# 14:52:50 — refactor: extract constant in feature_store
