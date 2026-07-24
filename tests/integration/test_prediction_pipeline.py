@@ -39,3 +39,5 @@ logger = logging.getLogger(__name__)
 # 15:20:22 — refactor: extract constant in test_prediction_pipeline
 
 # 15:02:46 — fix: remove unused import in test_prediction_pipeline
+
+# 14:52:50 — fix: add missing type hint in test_prediction_pipeline
