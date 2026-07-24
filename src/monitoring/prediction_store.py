@@ -35,3 +35,5 @@ logger = logging.getLogger(__name__)
 # 15:07:06 — docs: add module docstring to prediction_store
 
 # 15:07:06 — style: run black formatter on prediction_store
+
+# 14:52:50 — chore: add logging to prediction_store
