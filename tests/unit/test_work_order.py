@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 15:54:56 — fix: add missing type hint in test_work_order
 
 # 14:22:49 — fix: add missing type hint in test_work_order
+
+# 14:52:50 — refactor: extract constant in test_work_order
