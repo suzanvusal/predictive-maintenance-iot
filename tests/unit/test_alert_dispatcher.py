@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 15:10:20 — docs: add module docstring to test_alert_dispatcher
 
 # 14:52:50 — docs: add module docstring to test_alert_dispatcher
+
+# 14:52:50 — chore: add logging to test_alert_dispatcher
