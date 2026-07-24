@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 15:42:32 — fix: correct off-by-one in performance_monitor
 
 # 14:20:52 — chore: day 30 maintenance sweep
+
+# 14:52:50 — chore: add logging to performance_monitor
